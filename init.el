@@ -9,9 +9,11 @@
 (defvar my-packages '(better-defaults paredit idle-highlight-mode
 				     ido-ubiquitous
 				     find-file-in-project magit
-				     smex scpaste auto-complate
-				     go-eldoc go-mode go-errcheck
-				     go-scratch go-play popup))
+				     smex scpaste auto-complete
+                                     go-complete
+                                     go-eldoc go-mode go-errcheck
+				     go-scratch go-play
+                                     popup))
 
 ;; install my packages
 (package-initialize)

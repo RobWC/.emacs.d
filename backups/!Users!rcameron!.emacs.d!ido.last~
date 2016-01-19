@@ -15,14 +15,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/rcameron/.emacs.d/"
  "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
  "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
  "juniper_cfg.go"
  "device_config.go"
  "main.go"
@@ -31,8 +29,6 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/rcameron/.emacs.d/" (22174 43629 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" ".git/" "../" "./")
-
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/" (22174 36001 0 0) "response.go" "main.go" "helpers.go" "devices.go" "device_vlan.go" "device_user.go" "device_config.go" "../" "./")
 
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/" (22174 31813 0 0) "vlanfetcher/" "invworker/" "devworker/" "cdubdevapi/" "cactiimport/" "../" "./")
@@ -52,6 +48,8 @@
  ("/Users/" (22044 23516 0 0) "Shared/" "riotit/" "rcameron/" ".localized" "../" "./")
 
  ("/Users/rcameron/" (22174 36263 0 0) "Public/" "Pictures/" "Music/" "Movies/" "Misc/" "liquidprompt/" "Library/" "gopath/" "Downloads/" "Documents/" "Desktop/" "code/" "Applications/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".rnd" ".ovftool.ssldb" ".lesshst" ".htoprc" ".gvm/" ".gitconfig" ".fontconfig/" ".emacs~" ".emacs.d/" ".DS_Store" ".docker/" ".cups/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" ".account" "../" "./")
+
+ ("/Users/rcameron/.emacs.d/" (22174 37592 0 0) "init.el~" "init.el" "elpa/" "backups/" "auto-save-list/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -1,8 +1,10 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/juniper_cfg.go" . 1741)
+(("/Users/rcameron/.emacs.d/init.el" . 1163)
+ ("/Users/rcameron/.emacs.d/elpa/scpaste-0.6.5/scpaste-autoloads.el" . 732)
+ ("/Users/rcameron/.emacs.d/elpa/htmlize-1.39/htmlize-autoloads.el" . 2731)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/juniper_cfg.go" . 1741)
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/main.go" . 3435)
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/device_config.go" . 559)
- ("/Users/rcameron/.emacs.d/init.el" . 606)
  ("/Users/rcameron/.emacs.d/elpa/go-play-0.0.1/go-play-autoloads.el" . 384)
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/Dockerfile.devworker" . 28)
  ("/Users/rcameron/.emacs.d/elpa/smex-3.0/smex-autoloads.el" . 347)
