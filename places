@@ -1,31 +1,27 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/rcameron/.emacs.d/elpa/go-play-0.0.1/go-play-autoloads.el" . 384)
- ("/Users/rcameron/.emacs.d/elpa/go-scratch-20150809.2140/go-scratch-autoloads.el" . 365)
- ("/Users/rcameron/.emacs.d/elpa/go-errcheck-20150828.1135/go-errcheck-autoloads.el" . 765)
- ("/Users/rcameron/.emacs.d/elpa/go-eldoc-20151028.10/go-eldoc-autoloads.el" . 367)
- ("/Users/rcameron/.emacs.d/elpa/scpaste-20151208.1735/scpaste-autoloads.el" . 732)
- ("/Users/rcameron/.emacs.d/elpa/htmlize-20130207.1202/htmlize-autoloads.el" . 2731)
- ("/Users/rcameron/.emacs.d/elpa/smex-20151212.1409/smex-autoloads.el" . 490)
- ("/Users/rcameron/.emacs.d/elpa/magit-20160119.1409/magit-autoloads.el" . 48445)
- ("/Users/rcameron/.emacs.d/elpa/git-commit-20160119.1409/git-commit-autoloads.el" . 992)
- ("/Users/rcameron/.emacs.d/elpa/with-editor-20160119.1409/with-editor-autoloads.el" . 260)
- ("/Users/rcameron/.emacs.d/elpa/magit-popup-20160119.1409/magit-popup-autoloads.el" . 260)
- ("/Users/rcameron/.emacs.d/elpa/async-20160108.1249/async-autoloads.el" . 4113)
- ("/Users/rcameron/.emacs.d/elpa/dash-20151216.1315/dash-autoloads.el" . 217)
- ("/Users/rcameron/.emacs.d/elpa/find-file-in-project-20151216.1850/find-file-in-project-autoloads.el" . 3062)
- ("/Users/rcameron/.emacs.d/elpa/swiper-20160118.510/swiper-autoloads.el" . 2400)
- ("/Users/rcameron/.emacs.d/elpa/ido-ubiquitous-20160115.1626/ido-ubiquitous-autoloads.el" . 1633)
- ("/Users/rcameron/.emacs.d/elpa/ido-completing-read+-20151219.836/ido-completing-read+-autoloads.el" . 2922)
- ("/Users/rcameron/.emacs.d/elpa/idle-highlight-mode-20120920.948/idle-highlight-mode-autoloads.el" . 430)
- ("/Users/rcameron/.emacs.d/elpa/paredit-20150217.713/paredit-autoloads.el" . 784)
- ("/Users/rcameron/.emacs.d/elpa/monokai-theme-20160104.1312/monokai-theme-autoloads.el" . 456)
- ("/Users/rcameron/.emacs.d/elpa/auto-complete-1.4/auto-complete-autoloads.el" . 292)
- ("/Users/rcameron/.emacs.d/elpa/go-autocomplete-20150903.1940/go-autocomplete-autoloads.el" . 247)
- ("/Users/rcameron/.emacs.d/elpa/auto-complete-20160107.8/auto-complete-autoloads.el" . 1688)
- ("/Users/rcameron/.emacs.d/elpa/popup-20151222.1339/popup-autoloads.el" . 219)
- ("/Users/rcameron/.emacs.d/elpa/go-mode-20151226.1224/go-mode-autoloads.el" . 2868)
- ("/Users/rcameron/.emacs.d/init.el" . 510)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/juniper_cfg.go" . 1741)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/main.go" . 3435)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/device_config.go" . 559)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/Dockerfile.devworker" . 28))
+(("c:/Users/rcameron/AppData/Local/.emacs.d/init.el" . 94)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/main.go" . 3907)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/middleware.go" . 25)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/devworker/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/devworker/main.go"))
+ ("c:/Users/rcameron/Documents/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub"))
+ ("c:/Users/rcameron/Documents/GitHub/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath"))
+ ("c:/Users/rcameron/Documents/GitHub/gopath/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src"))
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com"))
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools"))
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd"))
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/" . 94)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/netconf_test.go" . 2)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/coreinfra/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/coreinfra/.."))
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps"))
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/devworker/main.go" . 4498)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/Dockerfile.devworker" . 29)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/.gitignore" . 245))

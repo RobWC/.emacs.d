@@ -2,6 +2,19 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/rcameron/AppData/Local/" . ".emacs.d/")
+ ("c:/Users/rcameron/AppData/" . "Local/")
+ ("c:/Users/rcameron/" . "AppData/")
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/" . "cactiimport/")
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/" . "cmd/")
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/" . "go-device-tools/")
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/" . "NetOps/")
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/" . "go.riotgames.com/")
+ ("c:/Users/rcameron/Documents/GitHub/gopath/" . "src/")
+ ("c:/Users/rcameron/Documents/GitHub/" . "gopath/")
+ ("c:/Users/rcameron/Documents/" . "GitHub/")
+ ("c:/Users/" . "rcameron/")
+ ("c:/" . "Users/")
  ("/Users/rcameron/.emacs.d/" . "auto-save-list/")
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/" . "cdubdevapi/")
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/" . "cmd/")
@@ -16,6 +29,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/rcameron/AppData/Local/.emacs.d/"
+ "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/"
+ "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
  "/Users/rcameron/.emacs.d/"
  "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
  "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/"
@@ -24,14 +40,50 @@
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "middleware.go"
+ ".gitignore"
+ "Dockerfile.devworker"
  "juniper_cfg.go"
  "device_config.go"
  "main.go"
- "Dockerfile.devworker"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/rcameron/AppData/Local/.emacs.d/" (22176 924 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/rcameron/AppData/Local/" (22176 684 0 0) "YSearchUtil/" "WebEx/" "VMware/" "VirtualStore/" "Temporary Internet Files/" "Temp/" "Symantec/" "SquirrelTemp/" "Skype/" "RzStats/" "Resmon.ResmonCfg" "Razer_Inc/" "Razer/" "Programs/" "pip/" "NVIDIA Corporation/" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft/" "IconCache.db" "History/" "Google/" "GitHub/" "GDIPFONTCACHEV1.DAT" "ElevatedDiagnostics/" "Downloaded Installations/" "DisplayFusion/" "Diagnostics/" "Deployment/" "CrashDumps/" "CEF/" "Blizzard Entertainment/" "Battle.net/" "atom/" "Atlassian/" "Apps/" "Application Data/" "Adobe/" ".emacs.d/" "../" "./")
+
+ ("c:/Users/rcameron/AppData/" (22017 57933 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/" (22175 64488 0 0) "version/" "vendor/" "types.go" "ssh_test.go" "ssh.go" "riot.nfo" "README.md" "netconf_test.go" "netconf.go" "Makefile" "juniper_types.go" "juniper_test.go" "juniper_ops_test.go" "juniper_ops.go" "juniper_cfg_types.go" "juniper_cfg_test.go" "juniper_cfg.go" "juniper.go" "inventory/" "Godeps/" "f5_types.go" "f5_test.go" "f5_ssh.go" "f5_rest_cfg.go" "f5_rest.go" "f5_ops.go" "f5_cfg.go" "f5.go" "Dockerfile.invworker" "Dockerfile.devworker" "docker/" "doc/" "device_errors.go" "deviceerrortype_string.go" "cmd/" "cisco_cfg.go" "ciscoasa_types.go" "ciscoasa_test.go" "ciscoasa_ops.go" "ciscoasa.go" "agent_test.go" "agent_map_test.go" "agent_map.go" "agentmgr_test.go" "agentmgr_start.go" "agentmgr_messages.go" "agentmgr_inventory.go" "agentmgr_agents.go" "agentmgr.go" "agentmeta_map_test.go" "agentmeta_map.go" "agentcmd_values.go" "agentcmd_string.go" "agentcmd.go" "agent.go" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/" (22175 54017 0 0) "vlanfetcher/" "invworker/" "devworker/" "cdubdevapi/" "cactiimport/" "../" "./")
+
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/" (22175 65001 0 0) "test_data/" "site_config.go" "response.go" "middleware.go" "main.go" "helpers.go" "device_vlan.go" "device_user.go" "device_config.go" "devices.go" "../" "./")
+
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cactiimport/" (22109 4 0 0) "README.md" "cacti_import.go" "../" "./")
+
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/" (22085 15579 0 0) "post_device.json" "go-device-tools/" "../" "./")
+
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/" (22123 22514 0 0) "rcameron/" "NetOps/" "michael-ivey/" "dat/" "coreinfra/" "../" "./")
+
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/" (22080 63120 0 0) "gopkg.in/" "golang.org/" "go.riotgames.com/" "github.com/" "gh.riotgames.com/" "code.google.com/" "9fans.net/" "../" "./")
+
+ ("c:/Users/rcameron/Documents/GitHub/gopath/" (22029 51694 0 0) "src/" "pkg/" "bin/" "../" "./")
+
+ ("c:/Users/rcameron/Documents/GitHub/" (22166 35314 0 0) "vlans2.json" "vlans.json" "vagrant/" "TIC2Vone.pdf" "rClusterNetBuilder/" "pod_dc_builder/" "PDP/" "Network/" "make-best-practices/" "LatencySimulator/" "junos_schema.tgz" "junos_schema/" "jmcom_test_hosts/" "gopath/" "ansible-best-practices/" "../" "./")
+
+ ("c:/Users/rcameron/Documents/" (22166 51513 0 0) "Virtual Machines/" "StarCraft II/" "picture of me.jpg" "My Videos/" "My Pictures/" "My Music/" "Heroes of the Storm/" "GitHub/" "DisplayFusion Backups/" "desktop.ini" "bigip-tmsh-11-4-0.pdf" "../" "./")
+
+ ("c:/Users/" (22156 3985 0 0) "riotit/" "rcameron/" "Public/" "desktop.ini" "Default User/" "Default/" "amills/" "All Users/" "../" "./")
+
+ ("c:/Users/rcameron/" (22175 53618 0 0) "_viminfo" "VirtualBox VMs/" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "liquidprompt/" "Links/" "http_debug.pcap" "Favorites/" "Envs/" "emacs/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".VirtualBox/" ".viminfo" ".vagrant.d/" ".ssh/" ".QtWebEngineProcess/" ".p4qt/" ".oracle_jre_usage/" ".HipChat/" ".gitconfig" ".docker/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "../" "./")
+
+ ("c:/Users/rcameron/emacs/" (22175 53643 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("c:/Users/rcameron/emacs/bin/" (22175 53635 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+
  ("/Users/rcameron/.emacs.d/auto-save-list/" (22174 60640 0 0) ".saves-24678-rcame1ml1.riotgames.com~" "../" "./")
 
  ("/Users/rcameron/.emacs.d/" (22174 60680 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" ".gitignore" ".git/" "../" "./")
