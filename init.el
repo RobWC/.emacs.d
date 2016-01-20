@@ -10,8 +10,7 @@
 				     ido-ubiquitous
 				     find-file-in-project magit
 				     smex scpaste auto-complete
-                                     go-complete
-                                     go-eldoc go-mode go-errcheck
+                                     go-autocomplete go-eldoc go-mode go-errcheck
 				     go-scratch go-play
                                      popup))
 
@@ -20,6 +19,9 @@
 (dolist (p my-packages)
   (when (not (package-installed-p p))
     (package-install p)))
+
+;; initalize packages
+(require 'go-autocomplete)
 
 ;; set line numbers to be on
 (global-linum-mode t)
