@@ -1,27 +1,30 @@
 (require 'package)
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
-(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+
+(add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (when (< emacs-major-version 24)
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 
 ;; my packages
-(defvar my-packages '(better-defaults paredit idle-highlight-mode
-				     ido-ubiquitous
-				     find-file-in-project magit
-				     smex scpaste auto-complete
+(defvar my-packages '(better-defaults paredit idle-highlight-mode ido-ubiquitous find-file-in-project magit
+				     smex scpaste monokai-theme
                                      go-autocomplete go-eldoc go-mode go-errcheck
-				     go-scratch go-play
+                                     go-scratch go-play
                                      popup))
 
-;; install my packages
 (package-initialize)
+;; install my packages
 (dolist (p my-packages)
   (when (not (package-installed-p p))
     (package-install p)))
 
 ;; initalize packages
 (require 'go-autocomplete)
+(require 'better-defaults)
+
+;; set theme
+(load-theme 'monokai t)
 
 ;; set line numbers to be on
 (global-linum-mode t)

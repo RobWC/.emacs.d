@@ -2,13 +2,14 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/rcameron/.emacs.d/" . "auto-save-list/")
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/" . "cdubdevapi/")
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/" . "cmd/")
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/" . "go-device-tools/")
  ("/Users/rcameron/gopath/src/go.riotgames.com/" . "NetOps/")
  ("/Users/rcameron/gopath/src/" . "go.riotgames.com/")
  ("/Users/rcameron/gopath/" . "src/")
- ("/Users/rcameron/" . "gopath/")
+ ("/Users/rcameron/" . ".emacs.d/")
  ("/Users/" . "rcameron/")
  ("/" . "Users/")
 )
@@ -31,13 +32,19 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/rcameron/.emacs.d/" (22174 54085 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" ".git/" "../" "./")
+ ("/Users/rcameron/.emacs.d/auto-save-list/" (22174 60640 0 0) ".saves-24678-rcame1ml1.riotgames.com~" "../" "./")
+
+ ("/Users/rcameron/.emacs.d/" (22174 60680 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/rcameron/" (22174 60680 0 0) "Public/" "Pictures/" "Music/" "Movies/" "Misc/" "liquidprompt/" "Library/" "gopath/" "Downloads/" "Documents/" "Desktop/" "code/" "Applications/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".rnd" ".ovftool.ssldb" ".lesshst" ".htoprc" ".gvm/" ".gitconfig" ".fontconfig/" ".emacs.d/" ".DS_Store" ".docker/" ".cups/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" ".account" "../" "./")
+
+ ("/Users/rcameron/.emacs.d/elpa/" (22174 58590 0 0) "with-editor-2.4.1/" "swiper-0.7.0/" "smex-3.0/" "scpaste-0.6.5/" "s-1.11.0/" "popup-0.5.3/" "paredit-24/" "magit-popup-2.4.1/" "magit-2.4.1/" "ido-ubiquitous-3.10/" "ido-completing-read+-3.10/" "idle-highlight-mode-1.1.3/" "htmlize-1.39/" "go-scratch-readme.txt" "go-scratch-0.0.1/" "go-play-0.0.1/" "go-mode-20131222/" "go-errcheck-1.1.2/" "go-eldoc-readme.txt" "go-eldoc-0.26/" "go-autocomplete-20150303/" "git-commit-2.4.1/" "find-file-in-project-4.5/" "dash-2.12.1/" "better-defaults-0.1.2/" "auto-complete-readme.txt" "auto-complete-1.5.0/" "async-1.6/" "archives/" "../" "./")
+
+ ("/Users/rcameron/.emacs.d/elpa/go-mode-20131222/" (22174 58557 0 0) "go-mode.elc" "go-mode.el" "go-mode-pkg.elc" "go-mode-pkg.el" "go-mode-autoloads.el" "../" "./")
 
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/" (22174 51324 0 0) "test_main" "test_data/" "site_config.go" "response.go" "middleware.go" "main.go" "helpers.go" "devices.go" "device_vlan.go" "device_user.go" "device_config.go" "../" "./")
 
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/" (22174 48636 0 0) "version/" "vendor/" "types.go" "ssh_test.go" "ssh.go" "riot.nfo" "README.md" "netconf_test.go" "netconf.go" "Makefile" "juniper_types.go" "juniper_test.go" "juniper_ops_test.go" "juniper_ops.go" "juniper_cfg_types.go" "juniper_cfg_test.go" "juniper_cfg.go" "juniper.go" "inventory/" "Godeps/" "f5_types.go" "f5_test.go" "f5_ssh.go" "f5_rest_cfg.go" "f5_rest.go" "f5_ops.go" "f5_cfg.go" "f5.go" "Dockerfile.invworker" "Dockerfile.devworker" "docker/" "doc/" "deviceerrortype_string.go" "device_errors.go" "cmd/" "ciscoasa_types.go" "ciscoasa_test.go" "ciscoasa_ops.go" "ciscoasa.go" "cisco_cfg.go" "agentmgr_test.go" "agentmgr_start.go" "agentmgr_messages.go" "agentmgr_inventory.go" "agentmgr_agents.go" "agentmgr.go" "agentmeta_map_test.go" "agentmeta_map.go" "agentcmd_values.go" "agentcmd_string.go" "agentcmd.go" "agent_test.go" "agent_map_test.go" "agent_map.go" "agent.go" ".gitignore" ".git/" "../" "./")
-
- ("/Users/rcameron/" (22174 53506 0 0) "Public/" "Pictures/" "Music/" "Movies/" "Misc/" "liquidprompt/" "Library/" "gopath/" "Downloads/" "Documents/" "Desktop/" "code/" "Applications/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".rnd" ".ovftool.ssldb" ".lesshst" ".htoprc" ".gvm/" ".gitconfig" ".fontconfig/" ".emacs~" ".emacs.d/" ".DS_Store" ".docker/" ".cups/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" ".account" "../" "./")
 
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/" (22174 31813 0 0) "vlanfetcher/" "invworker/" "devworker/" "cdubdevapi/" "cactiimport/" "../" "./")
 

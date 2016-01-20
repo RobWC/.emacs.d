@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "go-play" "go-play.el" (22174 39351 0 0))
+;;;### (autoloads nil "go-play" "go-play.el" (22174 61774 0 0))
 ;;; Generated autoloads from go-play.el
 
 (autoload 'go-play-buffer "go-play" "\
