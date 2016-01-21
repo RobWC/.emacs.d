@@ -11,7 +11,7 @@
   
     (when (file-accessible-directory-p "c:\\Users\\rcameron")
       (setenv "GOPATH" "c:\\Users\\rcameron\\Documents\\Github\\gopath")
-      (add-to-list 'exec-path "c:\\Users\\rcameron\\Documents\\Github\\gopath")
+      (add-to-list 'exec-path "c:\\Users\\rcameron\\Documents\\Github\\gopath\\bin")
       (add-to-list 'exec-path "c:\\Program Files (x86)\\Git\\Bin")
       (add-to-list 'load-path "C:\\Users\\rcameron\\Documents\\Github\\gopath\\src\\github.com\\golang\\lint\\misc\\emacs")
     )
