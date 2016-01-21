@@ -26,8 +26,8 @@
 
 ;; mac specific platform
 (if (eq system-name 'darwin)
-    (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
-    (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+    (add-to-list 'package-archives '("marmalade" . https))
+    (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 
     ; set gopath
     (setenv "GOPATH" "/Users/rcameron/gopath")
@@ -67,6 +67,8 @@
 (add-hook 'lisp-mode-hook             #'enable-paredit-mode)
 (add-hook 'lisp-interaction-mode-hook #'enable-paredit-mode)
 (add-hook 'scheme-mode-hook           #'enable-paredit-mode)
+(eldoc-add-command 'paredit-backward-delete 'paredit-close-round)
+(add-hook 'slime-repl-mode-hook (lambda() (paredit-mode +1)))
 
 ;; enable autocomplete
 (ac-config-default)
@@ -76,7 +78,6 @@
 (global-linum-mode t)
 
 ;; go configuration
-(add-hook 'before-save-hook #'gofmt-before-save)
 (add-hook 'go-mode-hook 'go-eldoc-setup)
 (setq gofmt-command "goimports")
 (require 'golint)

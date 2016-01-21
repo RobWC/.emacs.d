@@ -14,7 +14,7 @@
  ("c:/Users/rcameron/Documents/GitHub/gopath/" . "src/")
  ("c:/Users/rcameron/Documents/GitHub/" . "gopath/")
  ("c:/Users/rcameron/Documents/" . "GitHub/")
- ("c:/Users/" . "rwcam_000/")
+ ("c:/Users/" . "rcameron/")
  ("c:/" . "Users/")
  ("/Users/rcameron/.emacs.d/" . "auto-save-list/")
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/" . "cdubdevapi/")
@@ -30,11 +30,11 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/rcameron/AppData/Local/.emacs.d/"
+ "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
  "c:/Users/rwcam_000/.emacs.d/"
  "c:/Program Files/Emacs/bin/"
- "c:/Users/rcameron/AppData/Local/.emacs.d/"
  "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/"
- "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
  "/Users/rcameron/.emacs.d/"
  "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
  "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/"
@@ -55,23 +55,23 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/rcameron/AppData/Local/.emacs.d/" (22177 20401 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" "#ac-comphist.dat#" "../" "./")
+
+ ("c:/Users/rcameron/AppData/Local/" (22176 12421 0 0) "YSearchUtil/" "WebEx/" "VMware/" "VirtualStore/" "Temporary Internet Files/" "Temp/" "Symantec/" "SquirrelTemp/" "Skype/" "RzStats/" "Resmon.ResmonCfg" "Razer_Inc/" "Razer/" "Programs/" "pip/" "NVIDIA Corporation/" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft/" "IconCache.db" "History/" "Google/" "GitHub/" "GDIPFONTCACHEV1.DAT" "ElevatedDiagnostics/" "Downloaded Installations/" "DisplayFusion/" "Diagnostics/" "Deployment/" "CrashDumps/" "CEF/" "Blizzard Entertainment/" "Battle.net/" "atom/" "Atlassian/" "Apps/" "Application Data/" "Adobe/" ".emacs.d/" "../" "./")
+
+ ("c:/Users/" (22156 3985 0 0) "riotit/" "rcameron/" "Public/" "desktop.ini" "Default User/" "Default/" "amills/" "All Users/" "../" "./")
+
  ("c:/Users/rwcam_000/.emacs.d/" (22176 32959 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" "#ac-comphist.dat#" "../" "./")
 
  ("c:/Users/rwcam_000/AppData/" (22175 9174 0 0) "Roaming/" "pw/" "LocalLow/" "Local/" "../" "./")
 
  ("c:/Users/rwcam_000/" (22176 25971 0 0) "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Logs/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Config/" "Application Data/" "AppData/" "3D Objects/" "2016-01-12_23-10-28_League of Legends.log" ".viminfo" ".thumbnails/" ".ssh/" ".oracle_jre_usage/" ".gitconfig" ".gimp-2.8/" ".emacs.d/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "-000000000000001_crash.json" "../" "./")
 
- ("c:/Users/" (22102 47824 0 0) "rwcam_000/" "Public/" "desktop.ini" "Default.migrated/" "Default User/" "Default/" "All Users/" "../" "./")
-
  ("c:/Program Files/" (22172 36299 0 0) "WindowsPowerShell/" "WindowsApps/" "Windows Sidebar/" "Windows Portable Devices/" "Windows Photo Viewer/" "Windows NT/" "Windows Multimedia Platform/" "Windows Media Player/" "Windows Mail/" "Windows Journal/" "Windows Defender/" "Unity/" "Uninstall Information/" "TightVNC/" "Synaptics/" "Reference Assemblies/" "Realtek/" "Razer Chroma SDK/" "OBS/" "NVIDIA Corporation/" "MSBuild/" "MiniTool Partition Wizard Free 9.1/" "Microsoft Silverlight/" "Java/" "iTunes/" "iPod/" "Internet Explorer/" "Intel/" "Hyper-V/" "HexChat/" "GIMP 2/" "Emacs/" "DIFX/" "desktop.ini" "Common Files/" "Bonjour/" "Autodesk/" "AuthenTec/" "../" "./")
 
  ("c:/Program Files/Emacs/" (22172 36376 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
 
  ("c:/Program Files/Emacs/bin/" (22172 36378 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
-
- ("c:/Users/rcameron/AppData/Local/.emacs.d/" (22176 5477 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" ".gitignore" ".git/" "../" "./")
-
- ("c:/Users/rcameron/AppData/Local/" (22176 684 0 0) "YSearchUtil/" "WebEx/" "VMware/" "VirtualStore/" "Temporary Internet Files/" "Temp/" "Symantec/" "SquirrelTemp/" "Skype/" "RzStats/" "Resmon.ResmonCfg" "Razer_Inc/" "Razer/" "Programs/" "pip/" "NVIDIA Corporation/" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft/" "IconCache.db" "History/" "Google/" "GitHub/" "GDIPFONTCACHEV1.DAT" "ElevatedDiagnostics/" "Downloaded Installations/" "DisplayFusion/" "Diagnostics/" "Deployment/" "CrashDumps/" "CEF/" "Blizzard Entertainment/" "Battle.net/" "atom/" "Atlassian/" "Apps/" "Application Data/" "Adobe/" ".emacs.d/" "../" "./")
 
  ("c:/Users/rcameron/AppData/" (22017 57933 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
 

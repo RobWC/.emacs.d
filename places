@@ -1,2 +1,14 @@
 ;;; -*- coding: utf-8 -*-
-(("c:/Users/rwcam_000/.emacs.d/init.el" . 1225))
+(("c:/Users/rcameron/AppData/Local/.emacs.d/init.el" . 3048)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/main.go" . 1912)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_agents.go"))
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi"))
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/"
+  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/job_map.go"))
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/device_user.go" . 1177)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/site_config.go" . 706)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/jobs.go" . 379)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_agents.go" . 4216)
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr.go" . 1215))
