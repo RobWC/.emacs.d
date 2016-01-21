@@ -1,27 +1,2 @@
 ;;; -*- coding: utf-8 -*-
-(("c:/Users/rcameron/AppData/Local/.emacs.d/init.el" . 1269)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/main.go" . 3907)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/middleware.go" . 25)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/devworker/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/devworker/main.go"))
- ("c:/Users/rcameron/Documents/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub"))
- ("c:/Users/rcameron/Documents/GitHub/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/" . 94)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/netconf_test.go" . 2)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/coreinfra/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/coreinfra/.."))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/devworker/main.go" . 4498)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/Dockerfile.devworker" . 29)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/.gitignore" . 245))
+(("c:/Users/rwcam_000/.emacs.d/init.el" . 1225))
