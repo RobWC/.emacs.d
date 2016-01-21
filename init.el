@@ -14,6 +14,7 @@
       (add-to-list 'exec-path "c:\\Users\\rcameron\\Documents\\Github\\gopath\\bin")
       (add-to-list 'exec-path "c:\\Program Files (x86)\\Git\\Bin")
       (add-to-list 'load-path "C:\\Users\\rcameron\\Documents\\Github\\gopath\\src\\github.com\\golang\\lint\\misc\\emacs")
+      (load-file  "C:\\Users\\rcameron\\Documents\\Github\\gopath\\src\\golang.org\\x\\tools\\cmd\\oracle\\oracle.el")
     )
 
     (when (file-accessible-directory-p "c:\\Users\\rwcam_000")
@@ -85,8 +86,14 @@
 
 ;; godef
 (defun my-go-mode-hook ()
-;Call gofmt before savingb
+  ; Use goimports instead of go-fmt
+  (setq gofmt-command "goimports")
+  ; Call Gofmt before saving
   (add-hook 'before-save-hook 'gofmt-before-save)
-   ; Godef jump key binding
-  (local-set-key (kbd "M-.") 'godef-jump)
-(add-hook 'go-mode-hook 'my-go-mode-hook))
+  ; Customize compile command to run go build
+  (if (not (string-match "go" compile-command))
+      (set (make-local-variable 'compile-command)
+           "go build -v && go test -v && go vet"))
+  ; Godef jump key binding
+  (local-set-key (kbd "M-.") 'godef-jump))
+(add-hook 'go-mode-hook 'my-go-mode-hook)
