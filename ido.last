@@ -50,7 +50,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/rcameron/AppData/Local/.emacs.d/" (22176 924 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" ".gitignore" ".git/" "../" "./")
+ ("c:/Users/rcameron/AppData/Local/.emacs.d/" (22176 5477 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" ".gitignore" ".git/" "../" "./")
 
  ("c:/Users/rcameron/AppData/Local/" (22176 684 0 0) "YSearchUtil/" "WebEx/" "VMware/" "VirtualStore/" "Temporary Internet Files/" "Temp/" "Symantec/" "SquirrelTemp/" "Skype/" "RzStats/" "Resmon.ResmonCfg" "Razer_Inc/" "Razer/" "Programs/" "pip/" "NVIDIA Corporation/" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft/" "IconCache.db" "History/" "Google/" "GitHub/" "GDIPFONTCACHEV1.DAT" "ElevatedDiagnostics/" "Downloaded Installations/" "DisplayFusion/" "Diagnostics/" "Deployment/" "CrashDumps/" "CEF/" "Blizzard Entertainment/" "Battle.net/" "atom/" "Atlassian/" "Apps/" "Application Data/" "Adobe/" ".emacs.d/" "../" "./")
 
