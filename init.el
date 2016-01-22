@@ -45,10 +45,18 @@
 ;; mac specific platform
 (when (string-equal system-type 'darwin)
     (message "Loading Mac OS X config....")
+
+    (setq exec-path '(
+                      "/usr/local/bin"
+                      "C:/Program Files/Git/Bin"
+                      "/Users/rcameron/gopath/bin"
+                       
+                     ))
   
     ; set gopath
     (setenv "GOPATH" "/Users/rcameron/gopath")
-    (add-to-list 'exec-path "/usr/local/bin")
+    (add-to-list 'load-path "/Users/rcameron/gopath/src/github.com/golang/lint/misc/emacs")
+    (load-file "/Users/rcameron/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el") 
   )
 
 (when (< emacs-major-version 24)
