@@ -2,6 +2,12 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/" . "godragon/")
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/" . "robwc/")
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/" . "github.com/")
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/" . "src/")
+ ("c:/Users/rwcam_000/Documents/GitHub/" . "gopath/")
+ ("c:/Users/rwcam_000/Documents/" . "GitHub/")
  ("c:/Users/rwcam_000/" . ".emacs.d/")
  ("c:/Users/rcameron/AppData/Local/" . ".emacs.d/")
  ("c:/Users/rcameron/AppData/" . "Local/")
@@ -30,9 +36,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/rwcam_000/.emacs.d/"
+ "c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/"
  "c:/Users/rcameron/AppData/Local/.emacs.d/"
  "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
- "c:/Users/rwcam_000/.emacs.d/"
  "c:/Program Files/Emacs/bin/"
  "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/"
  "/Users/rcameron/.emacs.d/"
@@ -43,38 +50,52 @@
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "README.md"
+ "ac-comphist.dat"
  "agentmgr_inventory.go"
  "job_map.go"
- "ac-comphist.dat"
  "braum.json"
  "middleware.go"
  ".gitignore"
  "Dockerfile.devworker"
  "juniper_cfg.go"
- "device_config.go"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/rwcam_000/.emacs.d/" (22177 52893 0 0) "README.md" "places" "init.el" "ido.last" "elpa/" "certs/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" "#ac-comphist.dat#" "../" "./")
+
+ ("c:/Users/rwcam_000/" (22177 52213 0 0) "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Logs/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Config/" "Application Data/" "AppData/" "3D Objects/" "2016-01-12_23-10-28_League of Legends.log" ".viminfo" ".thumbnails/" ".ssh/" ".oracle_jre_usage/" ".gitconfig" ".gimp-2.8/" ".emacs.d/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "-000000000000001_crash.json" "../" "./")
+
+ ("c:/Program Files/Emacs/bin/" (22177 51947 0 0) "zlib1.dll" "runemacs.exe" "libXpm.dll" "libp11-kit-0.dll" "libnettle-6-0.dll" "libhogweed-4-0.dll" "libgnutls-30.dll" "libgmp-10.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/" (22162 53333 0 0) "wallpaper_test.go" "wallpaper.go" "test/" "static_items.go" "static_images.go" "static_endpoints.go" "static_data_test.go" "static_data.go" "static_champ.go" "skins_wallpaper.go" "README.md" "images_test.go" "cmd/" "champion.go" "api_summoner_test.go" "api_summoner.go" "api_stats_test.go" "api_stats.go" "api_client.go" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/" (22161 64627 0 0) "worker_party/" "godragon/" "gobgp/" "../" "./")
+
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/" (22111 60636 0 0) "spf13/" "socketplane/" "Sirupsen/" "shurcooL/" "satori/" "russross/" "rogpeppe/" "robwc/" "osrg/" "nsf/" "mitchellh/" "jessevdk/" "inconshreveable/" "golang/" "cpuguy83/" "BurntSushi/" "armon/" "../" "./")
+
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/" (22111 60630 0 0) "gopkg.in/" "google.golang.org/" "golang.org/" "github.com/" "9fans.net/" "../" "./")
+
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/" (22072 23680 0 0) "src/" "pkg/" "bin/" "../" "./")
+
+ ("c:/Users/rwcam_000/Documents/GitHub/" (22110 27336 0 0) "starter-pack/" "gopath/" "../" "./")
+
+ ("c:/Users/rwcam_000/Documents/" (22172 30649 0 0) "WWT MIDI Controller Maps/" "WWT Collections/" "StarCraft II/" "STAR WARS Battlefront/" "Razer Synapse Tournament Drivers 20150904_0044.exe" "My Videos/" "My Received Files/" "My Pictures/" "My Music/" "My Games/" "meshmixer/" "LOLReplay/" "Heroes of the Storm/" "GitHub/" "Downloads - Shortcut.lnk" "Diablo III/" "desktop.ini" "Default.rdp" "../" "./")
+
+ ("c:/Users/" (22102 47824 0 0) "rwcam_000/" "Public/" "desktop.ini" "Default.migrated/" "Default User/" "Default/" "All Users/" "../" "./")
+
  ("c:/Users/rcameron/AppData/Local/.emacs.d/" (22177 34818 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" "#ac-comphist.dat#" "../" "./")
 
  ("c:/Users/rcameron/AppData/Local/" (22177 21548 0 0) "YSearchUtil/" "WebEx/" "VMware/" "VirtualStore/" "Temporary Internet Files/" "Temp/" "Symantec/" "SquirrelTemp/" "Skype/" "RzStats/" "Resmon.ResmonCfg" "Razer_Inc/" "Razer/" "Programs/" "pip/" "NVIDIA Corporation/" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft/" "IconCache.db" "History/" "Google/" "GitHub/" "GDIPFONTCACHEV1.DAT" "ElevatedDiagnostics/" "Downloaded Installations/" "DisplayFusion/" "Diagnostics/" "Deployment/" "CrashDumps/" "CEF/" "Blizzard Entertainment/" "Battle.net/" "atom/" "Atlassian/" "Apps/" "Application Data/" "Adobe/" ".emacs.d/" "../" "./")
 
  ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/" (22177 24056 0 0) "version/" "vendor/" "types.go" "ssh_test.go" "ssh.go" "riot.nfo" "README.md" "netconf_test.go" "netconf.go" "Makefile" "juniper_types.go" "juniper_test.go" "juniper_ops_test.go" "juniper_ops.go" "juniper_cfg_types.go" "juniper_cfg_test.go" "juniper_cfg.go" "juniper.go" "job_map.go" "jobs.go" "inventory/" "Godeps/" "f5_types.go" "f5_test.go" "f5_ssh.go" "f5_rest_cfg.go" "f5_rest.go" "f5_ops.go" "f5_cfg.go" "f5.go" "Dockerfile.invworker" "Dockerfile.devworker" "docker/" "doc/" "device_errors.go" "deviceerrortype_string.go" "cmd/" "cisco_cfg.go" "ciscoasa_types.go" "ciscoasa_test.go" "ciscoasa_ops.go" "ciscoasa.go" "agent_test.go" "agent_map_test.go" "agent_map.go" "agentmgr_test.go" "agentmgr_start.go" "agentmgr_messages.go" "agentmgr_jobs.go" "agentmgr_inventory.go" "agentmgr_agents.go" "agentmgr.go" "agentmeta_map_test.go" "agentmeta_map.go" "agentcmd_values.go" "agentcmd_string.go" "agentcmd.go" "agent.go" ".gitignore" ".git/" ".#agentmgr_jobs.go" ".#agentmgr_agents.go" "#agentmgr_jobs.go#" "#agentmgr_agents.go#" "../" "./")
 
- ("c:/Users/" (22156 3985 0 0) "riotit/" "rcameron/" "Public/" "desktop.ini" "Default User/" "Default/" "amills/" "All Users/" "../" "./")
-
- ("c:/Users/rwcam_000/.emacs.d/" (22176 32959 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" "#ac-comphist.dat#" "../" "./")
-
  ("c:/Users/rwcam_000/AppData/" (22175 9174 0 0) "Roaming/" "pw/" "LocalLow/" "Local/" "../" "./")
-
- ("c:/Users/rwcam_000/" (22176 25971 0 0) "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Logs/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Config/" "Application Data/" "AppData/" "3D Objects/" "2016-01-12_23-10-28_League of Legends.log" ".viminfo" ".thumbnails/" ".ssh/" ".oracle_jre_usage/" ".gitconfig" ".gimp-2.8/" ".emacs.d/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "-000000000000001_crash.json" "../" "./")
 
  ("c:/Program Files/" (22172 36299 0 0) "WindowsPowerShell/" "WindowsApps/" "Windows Sidebar/" "Windows Portable Devices/" "Windows Photo Viewer/" "Windows NT/" "Windows Multimedia Platform/" "Windows Media Player/" "Windows Mail/" "Windows Journal/" "Windows Defender/" "Unity/" "Uninstall Information/" "TightVNC/" "Synaptics/" "Reference Assemblies/" "Realtek/" "Razer Chroma SDK/" "OBS/" "NVIDIA Corporation/" "MSBuild/" "MiniTool Partition Wizard Free 9.1/" "Microsoft Silverlight/" "Java/" "iTunes/" "iPod/" "Internet Explorer/" "Intel/" "Hyper-V/" "HexChat/" "GIMP 2/" "Emacs/" "DIFX/" "desktop.ini" "Common Files/" "Bonjour/" "Autodesk/" "AuthenTec/" "../" "./")
 
  ("c:/Program Files/Emacs/" (22172 36376 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
-
- ("c:/Program Files/Emacs/bin/" (22172 36378 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
 
  ("c:/Users/rcameron/AppData/" (22017 57933 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
 
