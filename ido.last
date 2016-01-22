@@ -43,6 +43,8 @@
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "agentmgr_inventory.go"
+ "job_map.go"
  "ac-comphist.dat"
  "braum.json"
  "middleware.go"
@@ -50,14 +52,15 @@
  "Dockerfile.devworker"
  "juniper_cfg.go"
  "device_config.go"
- "main.go"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/rcameron/AppData/Local/.emacs.d/" (22177 20401 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" "#ac-comphist.dat#" "../" "./")
+ ("c:/Users/rcameron/AppData/Local/.emacs.d/" (22177 34818 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" "#ac-comphist.dat#" "../" "./")
 
- ("c:/Users/rcameron/AppData/Local/" (22176 12421 0 0) "YSearchUtil/" "WebEx/" "VMware/" "VirtualStore/" "Temporary Internet Files/" "Temp/" "Symantec/" "SquirrelTemp/" "Skype/" "RzStats/" "Resmon.ResmonCfg" "Razer_Inc/" "Razer/" "Programs/" "pip/" "NVIDIA Corporation/" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft/" "IconCache.db" "History/" "Google/" "GitHub/" "GDIPFONTCACHEV1.DAT" "ElevatedDiagnostics/" "Downloaded Installations/" "DisplayFusion/" "Diagnostics/" "Deployment/" "CrashDumps/" "CEF/" "Blizzard Entertainment/" "Battle.net/" "atom/" "Atlassian/" "Apps/" "Application Data/" "Adobe/" ".emacs.d/" "../" "./")
+ ("c:/Users/rcameron/AppData/Local/" (22177 21548 0 0) "YSearchUtil/" "WebEx/" "VMware/" "VirtualStore/" "Temporary Internet Files/" "Temp/" "Symantec/" "SquirrelTemp/" "Skype/" "RzStats/" "Resmon.ResmonCfg" "Razer_Inc/" "Razer/" "Programs/" "pip/" "NVIDIA Corporation/" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft/" "IconCache.db" "History/" "Google/" "GitHub/" "GDIPFONTCACHEV1.DAT" "ElevatedDiagnostics/" "Downloaded Installations/" "DisplayFusion/" "Diagnostics/" "Deployment/" "CrashDumps/" "CEF/" "Blizzard Entertainment/" "Battle.net/" "atom/" "Atlassian/" "Apps/" "Application Data/" "Adobe/" ".emacs.d/" "../" "./")
+
+ ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/" (22177 24056 0 0) "version/" "vendor/" "types.go" "ssh_test.go" "ssh.go" "riot.nfo" "README.md" "netconf_test.go" "netconf.go" "Makefile" "juniper_types.go" "juniper_test.go" "juniper_ops_test.go" "juniper_ops.go" "juniper_cfg_types.go" "juniper_cfg_test.go" "juniper_cfg.go" "juniper.go" "job_map.go" "jobs.go" "inventory/" "Godeps/" "f5_types.go" "f5_test.go" "f5_ssh.go" "f5_rest_cfg.go" "f5_rest.go" "f5_ops.go" "f5_cfg.go" "f5.go" "Dockerfile.invworker" "Dockerfile.devworker" "docker/" "doc/" "device_errors.go" "deviceerrortype_string.go" "cmd/" "cisco_cfg.go" "ciscoasa_types.go" "ciscoasa_test.go" "ciscoasa_ops.go" "ciscoasa.go" "agent_test.go" "agent_map_test.go" "agent_map.go" "agentmgr_test.go" "agentmgr_start.go" "agentmgr_messages.go" "agentmgr_jobs.go" "agentmgr_inventory.go" "agentmgr_agents.go" "agentmgr.go" "agentmeta_map_test.go" "agentmeta_map.go" "agentcmd_values.go" "agentcmd_string.go" "agentcmd.go" "agent.go" ".gitignore" ".git/" ".#agentmgr_jobs.go" ".#agentmgr_agents.go" "#agentmgr_jobs.go#" "#agentmgr_agents.go#" "../" "./")
 
  ("c:/Users/" (22156 3985 0 0) "riotit/" "rcameron/" "Public/" "desktop.ini" "Default User/" "Default/" "amills/" "All Users/" "../" "./")
 
@@ -74,8 +77,6 @@
  ("c:/Program Files/Emacs/bin/" (22172 36378 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
 
  ("c:/Users/rcameron/AppData/" (22017 57933 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
-
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/" (22175 64488 0 0) "version/" "vendor/" "types.go" "ssh_test.go" "ssh.go" "riot.nfo" "README.md" "netconf_test.go" "netconf.go" "Makefile" "juniper_types.go" "juniper_test.go" "juniper_ops_test.go" "juniper_ops.go" "juniper_cfg_types.go" "juniper_cfg_test.go" "juniper_cfg.go" "juniper.go" "inventory/" "Godeps/" "f5_types.go" "f5_test.go" "f5_ssh.go" "f5_rest_cfg.go" "f5_rest.go" "f5_ops.go" "f5_cfg.go" "f5.go" "Dockerfile.invworker" "Dockerfile.devworker" "docker/" "doc/" "device_errors.go" "deviceerrortype_string.go" "cmd/" "cisco_cfg.go" "ciscoasa_types.go" "ciscoasa_test.go" "ciscoasa_ops.go" "ciscoasa.go" "agent_test.go" "agent_map_test.go" "agent_map.go" "agentmgr_test.go" "agentmgr_start.go" "agentmgr_messages.go" "agentmgr_inventory.go" "agentmgr_agents.go" "agentmgr.go" "agentmeta_map_test.go" "agentmeta_map.go" "agentcmd_values.go" "agentcmd_string.go" "agentcmd.go" "agent.go" ".gitignore" ".git/" "../" "./")
 
  ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/" (22175 54017 0 0) "vlanfetcher/" "invworker/" "devworker/" "cdubdevapi/" "cactiimport/" "../" "./")
 

@@ -1,34 +1,32 @@
 (require 'package)
 ;; determine the system type
 
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+
 ;; windows specific stuff
-(if (eq system-name 'windows-nt)
-
-    (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
-    (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
-
-    (add-to-list 'exec-path "c:\\Program Files (x86)\\Git\\Bin")
+(if (eq system-type 'windows-nt)
+    (message "Loading Windows config...")
+    (add-to-list 'exec-path "c:/Program\ Files/Git/Bin")
   
-    (when (file-accessible-directory-p "c:\\Users\\rcameron")
-      (setenv "GOPATH" "c:\\Users\\rcameron\\Documents\\Github\\gopath")
-      (add-to-list 'exec-path "c:\\Users\\rcameron\\Documents\\Github\\gopath\\bin")
-      (add-to-list 'exec-path "c:\\Program Files (x86)\\Git\\Bin")
-      (add-to-list 'load-path "C:\\Users\\rcameron\\Documents\\Github\\gopath\\src\\github.com\\golang\\lint\\misc\\emacs")
-      (load-file  "C:\\Users\\rcameron\\Documents\\Github\\gopath\\src\\golang.org\\x\\tools\\cmd\\oracle\\oracle.el")
+    (when (file-accessible-directory-p "c:/Users/rcameron")
+      (setenv "GOPATH" "c:/Users/rcameron/Documents/Github/gopath")
+      (add-to-list 'exec-path "c:/Users/rcameron/Documents/Github/gopath/bin")
+      (add-to-list 'load-path "C:/Users/rcameron/Documents/Github/gopath/src/github.com/golang/lint/misc/emacs")
+      (load-file  "C:/Users/rcameron/Documents/Github/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el")
     )
 
-    (when (file-accessible-directory-p "c:\\Users\\rwcam_000")
-      (setenv "GOPATH" "c:\\Users\\rwcam_000\\Documents\\Github\\gopath")
-      (add-to-list 'exec-path "c:\\Users\\rwcam_000\\Documents\\Github\\gopath")
-      (add-to-list 'load-path "C:\\Users\\rwcam_000\\Documents\\Github\\gopath\\src\\github.com\\golang\\lint\\misc\\emacs")
+    (when (file-accessible-directory-p "c:/Users/rwcam_000")
+      (setenv "GOPATH" "c:/Users/rwcam_000/Documents/Github/gopath")
+      (add-to-list 'exec-path "c:/Users/rwcam_000/Documents/Github/gopath")
+      (add-to-list 'load-path "C:/Users/rwcam_000/Documents/Github/gopath/src/github.com/golang/lint/misc/emacs")
     )
   )
 
 ;; mac specific platform
-(if (eq system-name 'darwin)
-    (add-to-list 'package-archives '("marmalade" . https))
-    (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
-
+(if (eq system-type 'darwin)
+    (message "Loading Mac OS X config....")
+  
     ; set gopath
     (setenv "GOPATH" "/Users/rcameron/gopath")
     (add-to-list 'exec-path "/usr/local/bin")
@@ -39,7 +37,8 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 
 ;; my packages
-(defvar my-packages '(better-defaults paredit idle-highlight-mode ido-ubiquitous find-file-in-project ;;magit
+(defvar my-packages '(better-defaults paredit idle-highlight-mode ido-ubiquitous
+                                     find-file-in-project magit neotree
 				     smex scpaste monokai-theme yaml-mode slime
                                      auto-complete markdown-mode rainbow-delimiters
                                      go-autocomplete go-eldoc go-mode go-errcheck
@@ -70,7 +69,7 @@
 (eldoc-add-command 'paredit-backward-delete 'paredit-close-round)
 (add-hook 'slime-repl-mode-hook (lambda() (paredit-mode +1)))
 
-;; enable autocomplete
+;1; enable autocomplete
 (ac-config-default)
 (require 'auto-complete-config)
 
@@ -78,11 +77,10 @@
 (global-linum-mode t)
 
 ;; go configuration
+(require 'golint)
 (add-hook 'go-mode-hook 'go-eldoc-setup)
 (setq gofmt-command "goimports")
-(require 'golint)
-
-; run gofmt on save
+; Call Gofmt before saving
 (add-hook 'before-save-hook 'gofmt-before-save)
 
 ;; godef
