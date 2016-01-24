@@ -1,9 +1,12 @@
 ;;; -*- coding: utf-8 -*-
-(("c:/Users/rwcam_000/.emacs.d/init.el" . 733)
+(("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/api_stats.go"
+  (dired-filename . "c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/api_stats.go"))
+ ("c:/Users/rwcam_000/.emacs.d/init.el" . 1380)
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/"
+  (dired-filename . "c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/static_images.go"))
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/static_images.go" . 203)
  ("c:/Users/rwcam_000/.emacs.d/elpa/go-mode-20151226.1224/go-mode-autoloads.el" . 2868)
  ("c:/Users/rwcam_000/.emacs.d/ac-comphist.dat" . 595)
- ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/"
-  (dired-filename . "c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/api_summoner.go"))
  ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/api_summoner.go" . 58)
  ("c:/Users/rwcam_000/.emacs.d/"
   (dired-filename . "c:/Users/rwcam_000/.emacs.d/.#init.el"))

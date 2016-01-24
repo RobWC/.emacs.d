@@ -1,4 +1,8 @@
-((("expand-file-name" .
+((("load-path" .
+   [1 0 0 0 0 0 0 0 0])
+  ("add-to-list" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("expand-file-name" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("load-file" .
    [1 0 0 0 0 0 0 0 0])

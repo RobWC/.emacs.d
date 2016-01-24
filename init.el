@@ -9,6 +9,9 @@
 
 ;; windows specific stuff
 (when (string-equal system-type "windows-nt")
+  ;;
+  ;; Pro-tip - some modules may not use the exec path, set the windows PATH correctly as well
+  ;;
   
   ;; setup tls trust files
   (setq gnutls-trustfiles (expand-file-name "~/.emacs.d/certs/cacert.pem"))
@@ -22,11 +25,13 @@
                         "C:/Program Files/Git/Bin"
                         "C:/Users/rcameron/Documents/Github/gopath/bin"
                         "C:/Program Files/Emacs/bin"
+                        "C:/Program Files (x86)/GnuWin32/bin"
                         ))
       (setenv "GOPATH" "c:/Users/rcameron/Documents/Github/gopath")
       (add-to-list 'load-path "C:/Users/rcameron/Documents/Github/gopath/src/github.com/golang/lint/misc/emacs")
+      (add-to-list 'load-path "C:/Users/rcameron/Documents/Github/gopath/src/github.com/dougm/goflymake")
       (load-file  "C:/Users/rcameron/Documents/Github/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el")
-      )
+     ) 
 
     (when (file-accessible-directory-p "c:/Users/rwcam_000")
 
@@ -34,12 +39,16 @@
       ;; setup exec path
       (setq exec-path '(
                         "C:/Program Files/Git/Bin"
-                        "c:/Users/rwcam_000/Documents/Github/gopath/bin"
+                        "C:/Users/rwcam_000/Documents/Github/gopath/bin"
+                        "C:/Program Files/Emacs/bin"
+                        "C:/Program Files (x86)/GnuWin32/bin"
                         ))
 
       (setenv "GOPATH" "c:/Users/rwcam_000/Documents/Github/gopath")
       (add-to-list 'load-path "C:/Users/rwcam_000/Documents/Github/gopath/src/github.com/golang/lint/misc/emacs")
+      (add-to-list 'load-path "C:/Users/rwcam_000/Documents/Github/gopath/src/github.com/dougm/goflymake")
       (load-file "C:/Users/rwcam_000/Documents/Github/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el")
+      
       ))
 
 ;; mac specific platform
@@ -100,10 +109,29 @@
 (global-linum-mode t)
 
 ;; go configuration
+
+;; Tools to install
+;; go get -u github.com/dougm/goflymake
+;; go get -u github.com/golang/lint/golint
+;; go get -u golang.org/x/tools/cmd/goimports
+
 (require 'go-mode-autoloads)
 (require 'golint)
 (require 'go-eldoc)
 (require 'go-autocomplete)
-(add-hook 'go-mode-hook 'go-eldoc-setup)
-(add-hook 'before-save-hook #'gofmt-before-save)
-(setq gofmt-command "goimports")
+(require 'go-flymake)
+
+(defun my-go-mode-hook ()
+  ; Use goimports instead of go-fmt
+  (setq gofmt-command "goimports")
+  ; Call Gofmt before saving
+  (add-hook 'go-mode-hook 'go-eldoc-setup)
+  (add-hook 'before-save-hook 'gofmt-before-save)
+  (add-hook 'before-save-hook 'golint)
+  ; Customize compile command to run go build
+  (if (not (string-match "go" compile-command))
+      (set (make-local-variable 'compile-command)
+           "go build -v && go test -v && go vet"))
+  ; Godef jump key binding
+  (local-set-key (kbd "M-.") 'godef-jump))
+(add-hook 'go-mode-hook 'my-go-mode-hook)
