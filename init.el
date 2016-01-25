@@ -135,3 +135,8 @@
   ; Godef jump key binding
   (local-set-key (kbd "M-.") 'godef-jump))
 (add-hook 'go-mode-hook 'my-go-mode-hook)
+
+;; starup config
+(setq inhibit-startup-message t)
+(desktop-save-mode 1)
+(dired "~/")

@@ -50,8 +50,8 @@
 ;; ----- ido-work-file-list -----
 (
  "init.el"
- "wallpaper.go"
  "README.md"
+ "wallpaper.go"
  "ac-comphist.dat"
  "agentmgr_inventory.go"
  "job_map.go"
@@ -63,9 +63,9 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/rwcam_000/.emacs.d/" (22180 5414 0 0) "README.md" "places" "init.el" "ido.last" "elpa/" "certs/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".#init.el" "#ac-comphist.dat#" "../" "./")
+ ("c:/Users/rwcam_000/.emacs.d/" (22181 40750 0 0) "README.md" "places" "init.el" "ido.last" "elpa/" "certs/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" "#init.el#" "#ac-comphist.dat#" "../" "./")
 
- ("c:/Users/rwcam_000/" (22180 4803 0 0) "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TM.blf" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.blf" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.2.regtrans-ms" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.1.regtrans-ms" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.0.regtrans-ms" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Logs/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Config/" "Application Data/" "AppData/" "3D Objects/" "2016-01-12_23-10-28_League of Legends.log" ".viminfo" ".thumbnails/" ".ssh/" ".oracle_jre_usage/" ".history" ".gitconfig" ".gimp-2.8/" ".emacs.d/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "-000000000000001_crash.json" "../" "./")
+ ("c:/Users/rwcam_000/" (22181 18789 0 0) "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TM.blf" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.blf" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.2.regtrans-ms" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.1.regtrans-ms" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.0.regtrans-ms" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Logs/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Config/" "Application Data/" "AppData/" "3D Objects/" "2016-01-12_23-10-28_League of Legends.log" ".viminfo" ".thumbnails/" ".ssh/" ".oracle_jre_usage/" ".history" ".gitconfig" ".gimp-2.8/" ".emacs.d/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "-000000000000001_crash.json" "../" "./")
 
  ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/" (22180 4831 0 0) "wallpaper_test.go" "wallpaper.go" "test/" "static_items.go" "static_images.go" "static_endpoints.go" "static_data_test.go" "static_data.go" "static_champ.go" "skins_wallpaper.go" "README.md" "images_test.go" "cmd/" "champion.go" "api_summoner_test.go" "api_summoner.go" "api_stats_test.go" "api_stats.go" "api_client.go" ".gitignore" ".git/" "#wallpaper.go#" "../" "./")
 

@@ -1,7 +1,10 @@
 ;;; -*- coding: utf-8 -*-
-(("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/api_stats.go"
+(("c:/Users/rwcam_000/.emacs.d/README.md" . 95)
+ ("c:/Users/rwcam_000/.emacs.d/init.el" . 5452)
+ ("c:/Users/rwcam_000/"
+  (dired-filename . "c:/Users/rwcam_000/NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.0.regtrans-ms"))
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/api_stats.go"
   (dired-filename . "c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/api_stats.go"))
- ("c:/Users/rwcam_000/.emacs.d/init.el" . 1380)
  ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/"
   (dired-filename . "c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/static_images.go"))
  ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/static_images.go" . 203)
