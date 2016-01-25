@@ -12,6 +12,9 @@
   ;;
   ;; Pro-tip - some modules may not use the exec path, set the windows PATH correctly as well
   ;;
+  ;;
+  ;; Window tools
+  ;; GNU Diff Utils - http://gnuwin32.sourceforge.net/packages/diffutils.htm
   
   ;; setup tls trust files
   (setq gnutls-trustfiles (expand-file-name "~/.emacs.d/certs/cacert.pem"))
@@ -28,7 +31,7 @@
                         "C:/Program Files (x86)/GnuWin32/bin"
                         ))
       (setenv "GOPATH" "c:/Users/rcameron/Documents/Github/gopath")
-      (add-to-list 'load-path "C:/Users/rcameron/Documents/Github/gopath/src/github.com/golang/lint/misc/emacs")
+      (add-to-list 'load-path "C:/Users/rcameron/Documents/GitHub/gopath/src/github.com/golang/lint/misc/emacs")
       (add-to-list 'load-path "C:/Users/rcameron/Documents/Github/gopath/src/github.com/dougm/goflymake")
       (load-file  "C:/Users/rcameron/Documents/Github/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el")
      ) 

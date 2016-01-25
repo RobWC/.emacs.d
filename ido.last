@@ -36,9 +36,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/rcameron/AppData/Local/.emacs.d/"
  "c:/Users/rwcam_000/.emacs.d/"
  "c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/"
- "c:/Users/rcameron/AppData/Local/.emacs.d/"
  "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
  "c:/Program Files/Emacs/bin/"
  "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/"
@@ -63,6 +63,12 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/rcameron/AppData/Local/.emacs.d/" (22182 26591 0 0) "README.md" "places" "init.el" "ido.last" "elpa/" "certs/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".emacs.desktop" "#ac-comphist.dat#" "../" "./")
+
+ ("c:/Users/" (22156 3985 0 0) "riotit/" "rcameron/" "Public/" "desktop.ini" "Default User/" "Default/" "amills/" "All Users/" "../" "./")
+
+ ("c:/Users/rcameron/" (22177 35384 0 0) "_viminfo" "VirtualBox VMs/" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "liquidprompt/" "Links/" "http_debug.pcap" "Favorites/" "Envs/" "emacs/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".VirtualBox/" ".viminfo" ".vagrant.d/" ".ssh/" ".QtWebEngineProcess/" ".p4qt/" ".oracle_jre_usage/" ".HipChat/" ".gitconfig" ".docker/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "../" "./")
+
  ("c:/Users/rwcam_000/.emacs.d/" (22181 40750 0 0) "README.md" "places" "init.el" "ido.last" "elpa/" "certs/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" "#init.el#" "#ac-comphist.dat#" "../" "./")
 
  ("c:/Users/rwcam_000/" (22181 18789 0 0) "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TM.blf" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.blf" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.2.regtrans-ms" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.1.regtrans-ms" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.0.regtrans-ms" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Logs/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Config/" "Application Data/" "AppData/" "3D Objects/" "2016-01-12_23-10-28_League of Legends.log" ".viminfo" ".thumbnails/" ".ssh/" ".oracle_jre_usage/" ".history" ".gitconfig" ".gimp-2.8/" ".emacs.d/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "-000000000000001_crash.json" "../" "./")
@@ -82,10 +88,6 @@
  ("c:/Users/rwcam_000/Documents/GitHub/gopath/" (22072 23680 0 0) "src/" "pkg/" "bin/" "../" "./")
 
  ("c:/Users/rwcam_000/Documents/GitHub/" (22110 27336 0 0) "starter-pack/" "gopath/" "../" "./")
-
- ("c:/Users/" (22102 47824 0 0) "rwcam_000/" "Public/" "desktop.ini" "Default.migrated/" "Default User/" "Default/" "All Users/" "../" "./")
-
- ("c:/Users/rcameron/AppData/Local/.emacs.d/" (22177 34818 0 0) "places" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" "#ac-comphist.dat#" "../" "./")
 
  ("c:/Users/rcameron/AppData/Local/" (22177 21548 0 0) "YSearchUtil/" "WebEx/" "VMware/" "VirtualStore/" "Temporary Internet Files/" "Temp/" "Symantec/" "SquirrelTemp/" "Skype/" "RzStats/" "Resmon.ResmonCfg" "Razer_Inc/" "Razer/" "Programs/" "pip/" "NVIDIA Corporation/" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft/" "IconCache.db" "History/" "Google/" "GitHub/" "GDIPFONTCACHEV1.DAT" "ElevatedDiagnostics/" "Downloaded Installations/" "DisplayFusion/" "Diagnostics/" "Deployment/" "CrashDumps/" "CEF/" "Blizzard Entertainment/" "Battle.net/" "atom/" "Atlassian/" "Apps/" "Application Data/" "Adobe/" ".emacs.d/" "../" "./")
 
@@ -116,8 +118,6 @@
  ("c:/Users/rcameron/Documents/GitHub/" (22166 35314 0 0) "vlans2.json" "vlans.json" "vagrant/" "TIC2Vone.pdf" "rClusterNetBuilder/" "pod_dc_builder/" "PDP/" "Network/" "make-best-practices/" "LatencySimulator/" "junos_schema.tgz" "junos_schema/" "jmcom_test_hosts/" "gopath/" "ansible-best-practices/" "../" "./")
 
  ("c:/Users/rcameron/Documents/" (22166 51513 0 0) "Virtual Machines/" "StarCraft II/" "picture of me.jpg" "My Videos/" "My Pictures/" "My Music/" "Heroes of the Storm/" "GitHub/" "DisplayFusion Backups/" "desktop.ini" "bigip-tmsh-11-4-0.pdf" "../" "./")
-
- ("c:/Users/rcameron/" (22175 53618 0 0) "_viminfo" "VirtualBox VMs/" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "liquidprompt/" "Links/" "http_debug.pcap" "Favorites/" "Envs/" "emacs/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".VirtualBox/" ".viminfo" ".vagrant.d/" ".ssh/" ".QtWebEngineProcess/" ".p4qt/" ".oracle_jre_usage/" ".HipChat/" ".gitconfig" ".docker/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "../" "./")
 
  ("c:/Users/rcameron/emacs/" (22175 53643 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
 

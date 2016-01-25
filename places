@@ -1,16 +1,5 @@
 ;;; -*- coding: utf-8 -*-
-(("c:/Users/rwcam_000/.emacs.d/README.md" . 95)
- ("c:/Users/rwcam_000/.emacs.d/init.el" . 5452)
- ("c:/Users/rwcam_000/"
-  (dired-filename . "c:/Users/rwcam_000/NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.0.regtrans-ms"))
- ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/api_stats.go"
-  (dired-filename . "c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/api_stats.go"))
- ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/"
-  (dired-filename . "c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/static_images.go"))
- ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/static_images.go" . 203)
- ("c:/Users/rwcam_000/.emacs.d/elpa/go-mode-20151226.1224/go-mode-autoloads.el" . 2868)
- ("c:/Users/rwcam_000/.emacs.d/ac-comphist.dat" . 595)
- ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/api_summoner.go" . 58)
- ("c:/Users/rwcam_000/.emacs.d/"
-  (dired-filename . "c:/Users/rwcam_000/.emacs.d/.#init.el"))
+(("c:/Users/rcameron/AppData/Local/"
+  (dired-filename . "c:/Users/rcameron/AppData/Local/.emacs.d"))
+ ("c:/Users/rcameron/AppData/Local/.emacs.d/init.el" . 1564)
  ("c:/Go/src/sync/waitgroup.go" . 3163))
