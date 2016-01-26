@@ -117,6 +117,7 @@
 ;; go get -u github.com/dougm/goflymake
 ;; go get -u github.com/golang/lint/golint
 ;; go get -u golang.org/x/tools/cmd/goimports
+;; go get -u github.com/kisielk/errcheck
 
 (require 'go-mode-autoloads)
 (require 'golint)

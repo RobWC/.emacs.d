@@ -1,4 +1,30 @@
-((("configure-info-directory" .
+((("Info" .
+   [2 0 0 0])
+  ("string" .
+   [1 0 0 0 0 0])
+  ("royHost" .
+   [1 0 0 0 1 0 0])
+  ("Getenv" .
+   [1 0 0 1 0 0])
+  ("royKey" .
+   [0 0 0 0 0 1])
+  ("Body" .
+   [1 0 0 0])
+  ("Close" .
+   [0 0 0 0 1])
+  ("data" .
+   [2 0 0 0])
+  ("nil" .
+   [2 0 0])
+  ("Sprintf" .
+   [1 0 0 0 0 0 0])
+  ("Get" .
+   [1 0 0])
+  ("royEnv" .
+   [4 0 1 0 0 0])
+  ("tokenAuth" .
+   [1 0 0 0 0 0 0 0 0])
+  ("configure-info-directory" .
    [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("load-path" .
    [1 0 0 0 0 0 0 0 0])
@@ -39,7 +65,7 @@
   ("changePass" .
    [0 0 0 0 0 0 0 0 0 2])
   ("err" .
-   [3 0 0])
+   [7 0 0])
   ("Errorf" .
    [1 0 1 0 0 1])
   ("password" .
