@@ -7,6 +7,9 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
+(load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode.el"))
+(load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode-autoloads.el"))
+
 ;; windows specific stuff
 (when (string-equal system-type "windows-nt")
   ;;
@@ -18,8 +21,6 @@
   
   ;; setup tls trust files
   (setq gnutls-trustfiles (expand-file-name "~/.emacs.d/certs/cacert.pem"))
-  (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode.el"))
-  (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode-autoloads.el"))
   (message "Loading Windows config...")
   
     (when (file-accessible-directory-p "c:/Users/rcameron")
@@ -59,15 +60,16 @@
     (message "Loading Mac OS X config....")
 
     (setq exec-path '(
+		      "/bin"
+		      "/usr/bin"
                       "/usr/local/bin"
-                      "C:/Program Files/Git/Bin"
                       "/Users/rcameron/gopath/bin"
-                       
                      ))
   
     ; set gopath
     (setenv "GOPATH" "/Users/rcameron/gopath")
     (add-to-list 'load-path "/Users/rcameron/gopath/src/github.com/golang/lint/misc/emacs")
+    (add-to-list 'load-path "/Users/rcameron/gopath/src/github.com/dougm/goflymake")
     (load-file "/Users/rcameron/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el") 
   )
 

@@ -8,3 +8,5 @@ ido.last
 
 .emacs.desktop
 .emacs.desktop.lock
+
+backups/.*
