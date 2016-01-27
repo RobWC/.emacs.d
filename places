@@ -1,3 +1,15 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/rcameron/"
+(("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/Dockerfile.cdubdevapi" . 156)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/docker/"
+  (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/docker/README.md"))
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/"
+  (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/.."))
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/"
+  (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/.."))
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
+  (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_test.go"))
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/main.go" . 4163)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_start.go" . 591)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/Makefile" . 5074)
+ ("/Users/rcameron/"
   (dired-filename . "/Users/rcameron/.CFUserTextEncoding")))
