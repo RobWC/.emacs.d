@@ -77,11 +77,12 @@
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 
+
 ;; my packages
 (defvar my-packages '(better-defaults paredit idle-highlight-mode ido-ubiquitous
-                                     find-file-in-project magit neotree
+                                     exec-path-from-shell find-file-in-project magit neotree
 				     smex scpaste monokai-theme yaml-mode slime
-                                      auto-complete markdown-mode rainbow-delimiters
+                                     auto-complete markdown-mode rainbow-delimiters
                                      go-autocomplete go-eldoc go-mode go-errcheck
                                      go-scratch go-play
                                      popup))
@@ -91,6 +92,9 @@
 (dolist (p my-packages)
   (when (not (package-installed-p p))
     (package-install p)))
+
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
 
 ;; set theme
 (load-theme 'monokai t)
