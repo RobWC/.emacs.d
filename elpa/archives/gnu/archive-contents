@@ -617,6 +617,11 @@
 		 "Clean-up and Beautify the list of minor-modes." single
 		 ((:url . "https://github.com/Malabarba/rich-minority")
 		  (:keywords "mode-line" "faces"))])
+ (rnc-mode .
+	   [(0 1)
+	    nil "Emacs mode to edit Relax-NG Compact files" single
+	    ((:url . "http://elpa.gnu.org/packages/rnc-mode.html")
+	     (:keywords "xml" "relaxng"))])
  (rudel .
 	[(0 3)
 	 nil "A collaborative editing framework for Emacs" tar
@@ -833,7 +838,7 @@
 	     ((:keywords "convenience" "emulation")
 	      (:url . "http://github.com/capitaomorte/yasnippet"))])
  (ztree .
-	[(1 0 2)
+	[(1 0 3)
 	 ((cl-lib
 	   (0)))
 	 "Text mode directory tree" tar

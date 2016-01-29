@@ -146,6 +146,12 @@
   (local-set-key (kbd "M-.") 'godef-jump))
 (add-hook 'go-mode-hook 'my-go-mode-hook)
 
+
+;; dired mode config
+(defun dired-mode-setup ()
+  (dired-hide-details-mode 1))
+(add-hook 'dired-mode-hook 'dired-mode-setup)
+
 ;; starup config
 (setq inhibit-startup-message t)
 (desktop-save-mode 1)
