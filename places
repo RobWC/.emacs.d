@@ -1,6 +1,5 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/Makefile" . 3562)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/juniper_cfg_test.go" . 291)
+(("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/juniper_cfg_test.go" . 291)
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/juniper_test.go" . 4976)
  ("/Users/rcameron/gopath/"
   (dired-filename . "/Users/rcameron/gopath/src"))
@@ -19,28 +18,35 @@
   (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/vendor/.."))
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/Godeps/Godeps.json" . 1802)
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/Godeps/" . 431)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/jwt.go" . 538)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/"
-  (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/invworker"))
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/invworker/"
   (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/invworker/flymake_main.go"))
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/invworker/main.go" . 3806)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/device_config.go" . 615)
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/juniper.go" . 1706)
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agent.go" . 1221)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_agents.go" . 4134)
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/netconf.go" . 942)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
-  (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_inventory.go"))
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_inventory.go" . 3442)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/middleware.go" . 647)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/" . 1496)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/main.go" . 829)
  ("/Users/rcameron/.emacs.d/init.el" . 5815)
- ("/Users/rcameron/" . 3395)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/middleware.go" . 734)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
+  (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/Makefile"))
+ ("/Users/rcameron/"
+  (dired-filename . "/Users/rcameron/Public"))
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/"
+  (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi"))
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/"
+  (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/main.go"))
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/main.go" . 39)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/Makefile" . 2269)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_inventory.go" . 1180)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_start.go" . 10381)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_agents.go" . 2295)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/ciscoasa.go" . 8365)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_jobs.go" . 67)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr.go" . 66)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/invworker/main.go" . 1109)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/jwt.go" . 577)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/device_user.go" . 445)
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/device_config.go" . 733)
+ ("/Users/rcameron/.gitconfig" . 183)
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/doc.go" . 34)
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/helpers.go" . 14)
  ("/Users/rcameron/.emacs.d/elpa/exec-path-from-shell-20160112.2246/exec-path-from-shell-autoloads.el" . 1252)
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/docker/"
-  (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/docker/README.md"))
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_start.go" . 591))
+  (dired-filename . "/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/docker/README.md")))

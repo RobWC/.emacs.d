@@ -63,13 +63,13 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/" (22187 63141 0 0) "test_data/" "site_config.go" "response.go" "request.go" "README.md" "middleware.go" "main.go" "jwt.go" "job_mgmt.go" "Dockerfile" "doc.go" "devices.go" "device_vlan.go" "device_user.go" "device_config.go" "../" "./")
+
  ("/Users/rcameron/.emacs.d/" (22187 60522 0 0) "README.md" "places" "lisp/" "init.el" "ido.last" "elpa/" "certs/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "#ac-comphist.dat#" "../" "./")
 
  ("/Users/rcameron/" (22187 52742 0 0) "Public/" "Pictures/" "Music/" "Movies/" "Misc/" "liquidprompt/" "Library/" "gopath/" "Downloads/" "Documents/" "Desktop/" "code/" "Applications/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".rnd" ".ovftool.ssldb" ".lesshst" ".htoprc" ".gvm/" ".gitconfig" ".fontconfig/" ".emacs.d/" ".DS_Store" ".docker/" ".cups/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" ".account" "../" "./")
 
  ("/Users/rcameron/gopath/src/" (22185 44203 0 0) "gopkg.in/" "google.golang.org/" "google.golang.com/" "golang.org/" "go.riotgames.com/" "github.com/" "gh.riotgames.com/" "appengine/" "9fans.net/" "../" "./")
-
- ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/" (22187 59954 0 0) "test_data/" "site_config.go" "response.go" "request.go" "middleware.go" "main.go" "jwt.go" "job_mgmt.go" "helpers.go" "Dockerfile" "doc.go" "devices.go" "device_vlan.go" "device_user.go" "device_config.go" "../" "./")
 
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/" (22187 53990 0 0) "version/" "vendor/" "types.go" "tagdata.go" "ssh_test.go" "ssh.go" "riot.nfo" "README.md" "netconf_test.go" "netconf.go" "Makefile" "juniper_types.go" "juniper_test.go" "juniper_ops_test.go" "juniper_ops.go" "juniper_cfg_types.go" "juniper_cfg_test.go" "juniper_cfg.go" "juniper.go" "job_map_test.go" "job_map.go" "job.go" "inventory/" "Godeps/" "gdt.test" "f5_types.go" "f5_test.go" "f5_ssh.go" "f5_rest_cfg.go" "f5_rest.go" "f5_ops.go" "f5_cfg.go" "f5.go" "docker/" "doc/" "deviceerrortype_string.go" "device_errors.go" "cmd/" "ciscoasa_types.go" "ciscoasa_test.go" "ciscoasa_ops.go" "ciscoasa.go" "cisco_cfg.go" "agentmgr_test.go" "agentmgr_start.go" "agentmgr_messages.go" "agentmgr_jobs.go" "agentmgr_inventory.go" "agentmgr_agents.go" "agentmgr.go" "agentmeta_map_test.go" "agentmeta_map.go" "agentcmd_values.go" "agentcmd_string.go" "agentcmd.go" "agent_test.go" "agent_map_test.go" "agent_map.go" "agent.go" ".gitignore" ".git/" "../" "./")
 
