@@ -10,7 +10,10 @@
 (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode.el"))
 (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode-autoloads.el"))
 
-;; windows specific stuff
+;; set the default to unix line endings
+(set-buffer-file-coding-system 'utf-8-unix)
+
+;; Windows specific stuff
 (when (string-equal system-type "windows-nt")
   ;;
   ;; Pro-tip - some modules may not use the exec path, set the windows PATH correctly as well
@@ -117,6 +120,21 @@
 ;; set line numbers to be on
 (global-linum-mode t)
 
+;; helper functions
+(defun unix-file ()
+  "Change the current buffer to Latin 1 with Unix line-ends."
+  (interactive)
+  (set-buffer-file-coding-system 'utf-8-unix t))
+
+(defun dos-file ()
+  "Change the current buffer to Latin 1 with DOS line-ends."
+  (interactive)
+  (set-buffer-file-coding-system 'utf-8-dos t))
+
+(defun mac-file ()
+  "Change the current buffer to Latin 1 with Mac line-ends."
+  (interactive)
+  (set-buffer-file-coding-system 'utf-8-mac t))
 ;; go configuration
 
 ;; Tools to install
