@@ -1,6 +1,16 @@
 (require 'package)
 ;; determine the system type
 
+;; utf8 mode
+;; Set locale to UTF8
+(set-language-environment 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(setq locale-coding-system 'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-selection-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
+
+
 (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
 
@@ -87,7 +97,7 @@
 				     smex scpaste monokai-theme yaml-mode slime
                                      auto-complete markdown-mode rainbow-delimiters
                                      go-autocomplete go-eldoc go-mode go-errcheck
-                                     go-scratch go-play
+                                     autopair ido-hacks ido-vertical-mode go-scratch go-play
                                      popup))
 
 (package-initialize)
@@ -135,6 +145,18 @@
   "Change the current buffer to Latin 1 with Mac line-ends."
   (interactive)
   (set-buffer-file-coding-system 'utf-8-mac t))
+
+;; ido config
+(require 'ido)
+(ido-mode t)
+(setq ido-enble-flex-matching t)
+
+(require 'ido-vertical-mode)
+(ido-vertical-mode)
+
+(require 'ido-hacks)
+(ido-hacks-mode)
+
 ;; go configuration
 
 ;; Tools to install
@@ -163,6 +185,12 @@
   ; Godef jump key binding
   (local-set-key (kbd "M-.") 'godef-jump))
 (add-hook 'go-mode-hook 'my-go-mode-hook)
+
+
+;; dired mode config
+(defun dired-mode-setup ()
+  (dired-hide-details-mode 1))
+(add-hook 'dired-mode-hook 'dired-mode-setup)
 
 ;; starup config
 (setq inhibit-startup-message t)
