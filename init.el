@@ -176,6 +176,7 @@
   (setq gofmt-command "goimports")
   ; Call Gofmt before saving
   (add-hook 'go-mode-hook 'go-eldoc-setup)
+  (add-hook 'go-mode-hook #'enable-paredit-mode)
   (add-hook 'before-save-hook 'gofmt-before-save)
   (add-hook 'before-save-hook 'golint)
   ; Customize compile command to run go build
