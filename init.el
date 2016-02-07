@@ -11,8 +11,14 @@
 (prefer-coding-system 'utf-8)
 
 
-(add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives
+             '("marmalade" . "https://marmalade-repo.org/packages/") t)
+
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
+
+(add-to-list 'package-archives 
+             '("org" . "http://orgmode.org/elpa/") t)
 
 (when (not package-archive-contents)
   (package-refresh-contents))
@@ -93,11 +99,20 @@
 
 ;; my packages
 (defvar my-packages '(better-defaults paredit idle-highlight-mode ido-ubiquitous
-                                     exec-path-from-shell find-file-in-project magit neotree
+                                      flymake-cursor 
+                                      dedicated ;; keeps windows from stupid town
+                                      markdown-mode ;; dealing with markdown
+                                      dockerfile-mode ;; docker stuff
+                                      json-mode ;; json stuff
+                                      yaml-mode ;; yaml stuff
+                                      pymacs ;; python stuff
+                                      dired-details ;; dired made nice
+                                      exec-path-from-shell find-file-in-project magit neotree
 				     smex scpaste monokai-theme yaml-mode slime
                                      auto-complete markdown-mode rainbow-delimiters
-                                     go-autocomplete go-eldoc go-mode go-errcheck
-                                     autopair ido-hacks ido-vertical-mode go-scratch go-play
+                                     go-autocomplete go-eldoc go-mode go-errcheck ;; golang stuff
+
+                                    autopair ido-hacks ido-vertical-mode go-scratch go-play
                                      popup))
 
 (package-initialize)
@@ -194,6 +209,7 @@
 (add-hook 'dired-mode-hook 'dired-mode-setup)
 
 ;; starup config
+(require 'dedicated)
 (setq inhibit-startup-message t)
 (desktop-save-mode 1)
 (dired "~/")
