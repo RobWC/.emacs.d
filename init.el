@@ -9,6 +9,8 @@
 (set-default-coding-systems 'utf-8)
 (set-selection-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
+;; set the default to unix line endings
+(set-buffer-file-coding-system 'utf-8-unix)
 
 
 (add-to-list 'package-archives
@@ -23,11 +25,9 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
+;; hack for loading go-mode
 (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode.el"))
 (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode-autoloads.el"))
-
-;; set the default to unix line endings
-(set-buffer-file-coding-system 'utf-8-unix)
 
 ;; Windows specific stuff
 (when (string-equal system-type "windows-nt")
@@ -37,6 +37,7 @@
   ;;
   ;; Window tools
   ;; GNU Diff Utils - http://gnuwin32.sourceforge.net/packages/diffutils.htm
+  ;; GNU TLS - for HTTPS connections from emacs - http://sourceforge.net/projects/ezwinports/files/
   
   ;; setup tls trust files
   (setq gnutls-trustfiles (expand-file-name "~/.emacs.d/certs/cacert.pem"))
@@ -99,21 +100,22 @@
 
 ;; my packages
 (defvar my-packages '(better-defaults paredit idle-highlight-mode ido-ubiquitous
+                                      slime
                                       flymake-cursor 
                                       dedicated ;; keeps windows from stupid town
                                       markdown-mode ;; dealing with markdown
                                       dockerfile-mode ;; docker stuff
                                       json-mode ;; json stuff
+                                      flymake-jshint ;; js stuff
                                       yaml-mode ;; yaml stuff
                                       pymacs ;; python stuff
-                                      dired-details ;; dired made nice
+                                      dired-single  dired-details ;; dired made nice
                                       exec-path-from-shell find-file-in-project magit neotree
-				     smex scpaste monokai-theme yaml-mode slime
-                                     auto-complete markdown-mode rainbow-delimiters
-                                     go-autocomplete go-eldoc go-mode go-errcheck ;; golang stuff
-
-                                    autopair ido-hacks ido-vertical-mode go-scratch go-play
-                                     popup))
+				      smex scpaste monokai-theme yaml-mode
+                                      auto-complete markdown-mode rainbow-delimiters
+                                      go-autocomplete go-eldoc go-mode go-errcheck ;; golang stuff
+                                      autopair ido-hacks ido-vertical-mode go-scratch go-play
+                                      popup))
 
 (package-initialize)
 ;; install my packages
@@ -126,6 +128,25 @@
 
 ;; set theme
 (load-theme 'monokai t)
+
+;; emacs tweaks
+(setq-default indent-tabs-mode nil)      ;; no tabs!
+(setq fill-column 80) ;; M-q should fill at 80 chars, not 75
+(defalias 'qrr 'query-regexp-replace)
+(fset 'yes-or-no-p 'y-or-n-p)  ;; only type `y` instead of `yes`
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'post-forward)  ;; buffernames that are foo<1>, foo<2> are hard to read. This makes them foo|dir  foo|otherdir
+(setq desktop-load-locked-desktop "ask") ;; sometimes desktop is locked, ask if we want to load it.
+(setq-default truncate-lines 1) ;; no wordwrap
+(menu-bar-mode -1) ;; minimal chrome
+(tool-bar-mode -1) ;; no toolbar
+(scroll-bar-mode -1) ;; disable scroll bars
+(setq visible-bell nil) ;; disable visual bell
+
+
+;; server mode
+(if (not server-mode)
+    (server-start nil t))
 
 ;; enable paredit
 (autoload 'enable-paredit-mode "paredit" "Turn on pseudo-structural editing of Lisp code." t)
@@ -171,6 +192,29 @@
 
 (require 'ido-hacks)
 (ido-hacks-mode)
+
+;; lisp
+(require 'slime)
+
+;; javascript
+(require 'flymake-jshint)
+(add-hook 'js-mode-hook 'flymake-jshint-load)
+(add-hook 'js-mode-hook 'flymake-mode)
+
+;; python mode
+;; python
+(add-hook 'python-mode-hook (lambda () 
+                                ;; This breaks the blog export, as the
+                                ;; python snippet doesn't actually have
+                                ;; a filename. Need to investigate
+                                ;; flycheck for options. We'll just
+                                ;; spawn a new emacs without this
+                                ;; enabled for now.
+                                (setq fill-column 80)
+                                (flycheck-mode 1)
+                                (fci-mode 1)))
+  
+(add-to-list 'auto-mode-alist '("\\.py" . python-mode))
 
 ;; go configuration
 

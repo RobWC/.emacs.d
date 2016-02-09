@@ -63,7 +63,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/rwcam_000/.emacs.d/" (22198 41323 0 0) "README.md" "places" "init.el" "ido.last" "elpa/" "certs/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "#init.el#" "#ac-comphist.dat#" "../" "./")
+ ("c:/Users/rwcam_000/.emacs.d/" (22201 29714 0 0) "README.md" "places" "init.el" "ido.last" "elpa/" "certs/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "#ac-comphist.dat#" "../" "./")
 
  ("c:/Users/rwcam_000/" (22198 40436 0 0) "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TM.blf" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.blf" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.2.regtrans-ms" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.1.regtrans-ms" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.0.regtrans-ms" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Logs/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Config/" "Application Data/" "AppData/" "3D Objects/" "2016-01-12_23-10-28_League of Legends.log" ".viminfo" ".thumbnails/" ".ssh/" ".oracle_jre_usage/" ".history" ".gitconfig" ".gimp-2.8/" ".emacs.d/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "-000000000000001_crash.json" "../" "./")
 

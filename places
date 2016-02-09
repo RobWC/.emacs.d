@@ -1,36 +1,19 @@
 ;;; -*- coding: utf-8 -*-
-(("c:/Users/rcameron/Documents/GitHub/gopath/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_agents.go" . 1468)
- ("c:/Users/rcameron/AppData/Local/"
-  (dired-filename . "c:/Users/rcameron/AppData/Local/.."))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr.go" . 1729)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/main.go"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/response.go" . 542)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/job_errors.go"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/job_errors.go" . 670)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/site_config.go" . 2070)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/job_mgmt.go" . 893)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/agentmgr_jobs.go" . 1262)
- ("c:/Users/rcameron/AppData/"
-  (dired-filename . "c:/Users/rcameron/AppData/Local"))
- ("c:/Users/rcameron/"
-  (dired-filename . "c:/Users/rcameron/Documents"))
- ("c:/Users/rcameron/Documents/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub"))
- ("c:/Users/rcameron/Documents/GitHub/"
-  (dired-filename . "c:/Users/rcameron/Documents/GitHub/gopath"))
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/middleware.go" . 2276)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/device_config.go" . 610)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/main.go" . 1474)
- ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/response_test.go" . 229))
+(("c:/Users/rwcam_000/" . 4009)
+ ("c:/Users/rwcam_000/.emacs.d/init.el" . 5430)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/dired-single-20151230.1758/dired-single-autoloads.el" . 2247)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/flymake-jshint-20140319.1500/flymake-jshint-autoloads.el" . 437)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/flymake-easy-20140818.55/flymake-easy-autoloads.el" . 241)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/pymacs-0.25/pymacs-autoloads.el" . 2278)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/dired-details-20130824.458/dired-details-autoloads.el" . 243)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/flymake-cursor-20130822.332/flymake-cursor-autoloads.el" . 1746)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/markdown-mode+-20120829.510/markdown-mode+-autoloads.el" . 1278)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/json-mode-20151116.2000/json-mode-autoloads.el" . 624)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/json-reformat-20151204.900/json-reformat-autoloads.el" . 557)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/json-snatcher-20150511.2047/json-snatcher-autoloads.el" . 433)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/dockerfile-mode-20160128.951/dockerfile-mode-autoloads.el" . 758)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/ac-capf-20151031.1917/ac-capf-autoloads.el" . 385)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/dedicated-20090428.1231/dedicated-autoloads.el" . 227)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/ido-vertical-mode-20151003.1833/ido-vertical-mode-autoloads.el" . 796)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/ido-hacks-20150331.1209/ido-hacks-autoloads.el" . 227)
+ ("c:/Users/rwcam_000/.emacs.d/elpa/autopair-20140825.427/autopair-autoloads.el" . 1163))
