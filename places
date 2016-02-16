@@ -1,6 +1,8 @@
 ;;; -*- coding: utf-8 -*-
-(("c:/Users/rwcam_000/" . 4009)
- ("c:/Users/rwcam_000/.emacs.d/init.el" . 5430)
+(("c:/Users/rwcam_000/.emacs.d/fun.el" . 407)
+ ("c:/Users/rwcam_000/.emacs.d/init.el" . 6148)
+ ("c:/Users/rwcam_000/"
+  (dired-filename . "c:/Users/rwcam_000/.viminfo"))
  ("c:/Users/rwcam_000/.emacs.d/elpa/dired-single-20151230.1758/dired-single-autoloads.el" . 2247)
  ("c:/Users/rwcam_000/.emacs.d/elpa/flymake-jshint-20140319.1500/flymake-jshint-autoloads.el" . 437)
  ("c:/Users/rwcam_000/.emacs.d/elpa/flymake-easy-20140818.55/flymake-easy-autoloads.el" . 241)

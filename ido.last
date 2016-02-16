@@ -63,9 +63,21 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/rwcam_000/.emacs.d/" (22201 29714 0 0) "README.md" "places" "init.el" "ido.last" "elpa/" "certs/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "#ac-comphist.dat#" "../" "./")
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/" (22180 5663 0 0) "wallpaper_test.go" "wallpaper.go" "test/" "static_items.go" "static_images.go" "static_endpoints.go" "static_data_test.go" "static_data.go" "static_champ.go" "skins_wallpaper.go" "README.md" "images_test.go" "cmd/" "champion.go" "api_summoner_test.go" "api_summoner.go" "api_stats_test.go" "api_stats.go" "api_client.go" ".gitignore" ".git/" "#wallpaper.go#" "#api_stats.go#" "../" "./")
 
- ("c:/Users/rwcam_000/" (22198 40436 0 0) "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TM.blf" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.blf" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.2.regtrans-ms" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.1.regtrans-ms" "NTUSER.DAT{a9464df4-9412-11e5-a156-c32f26e65cc9}.TxR.0.regtrans-ms" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Logs/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Config/" "Application Data/" "AppData/" "3D Objects/" "2016-01-12_23-10-28_League of Legends.log" ".viminfo" ".thumbnails/" ".ssh/" ".oracle_jre_usage/" ".history" ".gitconfig" ".gimp-2.8/" ".emacs.d/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "-000000000000001_crash.json" "../" "./")
+ ("c:/Users/rwcam_000/.emacs.d/" (22207 35107 0 0) "server/" "README.md" "places" "init.el" "ido.last" "fun.el" "elpa/" "certs/" "backups/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "#ac-comphist.dat#" "../" "./")
+
+ ("c:/d932f217dd7117502391/" (21986 40108 0 0) "../" "./")
+
+ ("c:/Users/" (22102 47824 0 0) "rwcam_000/" "Public/" "desktop.ini" "Default.migrated/" "Default User/" "Default/" "All Users/" "../" "./")
+
+ ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/" (22190 61255 0 0) "spf13/" "socketplane/" "Sirupsen/" "shurcooL/" "satori/" "russross/" "rogpeppe/" "robwc/" "osrg/" "nsf/" "mitchellh/" "mattn/" "jessevdk/" "inconshreveable/" "golang/" "dougm/" "cpuguy83/" "BurntSushi/" "armon/" "../" "./")
+
+ ("c:/Users/rwcam_000/Documents/" (22186 17657 0 0) "WWT MIDI Controller Maps/" "WWT Collections/" "StarCraft II/" "STAR WARS Battlefront/" "Razer Synapse Tournament Drivers 20150904_0044.exe" "Paradox Interactive/" "My Videos/" "My Received Files/" "My Pictures/" "My Music/" "My Games/" "meshmixer/" "LOLReplay/" "League of Legends/" "Heroes of the Storm/" "GitHub/" "Downloads - Shortcut.lnk" "Diablo III/" "desktop.ini" "Default.rdp" "../" "./")
+
+ ("c:/Users/rwcam_000/" (22201 30543 0 0) "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Roaming/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{a9464df5-9412-11e5-a156-c32f26e65cc9}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Logs/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Config/" "Application Data/" "AppData/" "3D Objects/" "2016-01-12_23-10-28_League of Legends.log" ".viminfo" ".thumbnails/" ".ssh/" ".oracle_jre_usage/" ".history" ".gitconfig" ".gimp-2.8/" ".emacs.d/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "-000000000000001_crash.json" "../" "./")
+
+ ("c:/Program Files/Emacs/bin/" (22201 29558 0 0) "zlib1.dll" "srptool.exe" "runemacs.exe" "regex2.dll" "psktool.exe" "ocsptool.exe" "libXpm.dll" "libtasn1-6.dll" "libp11-kit-0.dll" "libnettle-6-0.dll" "libnettle-4-7.dll" "libintl-8.dll" "libiconv-2.dll" "libhogweed-4-0.dll" "libhogweed-2-5.dll" "libgnutls-openssl-27.dll" "libgnutls-30.dll" "libgnutls-28.dll" "libgmp-10.dll" "grep-changelog" "gnutls-serv.exe" "gnutls-cli.exe" "gnutls-cli-debug.exe" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "danetool.exe" "ctags.exe" "certtool.exe" "addpm.exe" "../" "./")
 
  ("/Users/rcameron/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/" (22187 63141 0 0) "test_data/" "site_config.go" "response.go" "request.go" "README.md" "middleware.go" "main.go" "jwt.go" "job_mgmt.go" "Dockerfile" "doc.go" "devices.go" "device_vlan.go" "device_user.go" "device_config.go" "../" "./")
 
@@ -85,19 +97,9 @@
 
  ("c:/Users/rcameron/Documents/GitHub/gopath/src/go.riotgames.com/NetOps/go-device-tools/cmd/cdubdevapi/data/keys/" (22182 40111 0 0) "../" "./")
 
- ("c:/Users/" (22156 3985 0 0) "riotit/" "rcameron/" "Public/" "desktop.ini" "Default User/" "Default/" "amills/" "All Users/" "../" "./")
-
  ("c:/Users/rcameron/" (22177 35384 0 0) "_viminfo" "VirtualBox VMs/" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "liquidprompt/" "Links/" "http_debug.pcap" "Favorites/" "Envs/" "emacs/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".VirtualBox/" ".viminfo" ".vagrant.d/" ".ssh/" ".QtWebEngineProcess/" ".p4qt/" ".oracle_jre_usage/" ".HipChat/" ".gitconfig" ".docker/" ".bash_profile" ".bash_history" ".bashrc" ".atom/" "../" "./")
 
- ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/godragon/" (22180 4831 0 0) "wallpaper_test.go" "wallpaper.go" "test/" "static_items.go" "static_images.go" "static_endpoints.go" "static_data_test.go" "static_data.go" "static_champ.go" "skins_wallpaper.go" "README.md" "images_test.go" "cmd/" "champion.go" "api_summoner_test.go" "api_summoner.go" "api_stats_test.go" "api_stats.go" "api_client.go" ".gitignore" ".git/" "#wallpaper.go#" "../" "./")
-
- ("c:/Users/rwcam_000/Documents/" (22179 62371 0 0) "WWT MIDI Controller Maps/" "WWT Collections/" "StarCraft II/" "STAR WARS Battlefront/" "Razer Synapse Tournament Drivers 20150904_0044.exe" "Paradox Interactive/" "My Videos/" "My Received Files/" "My Pictures/" "My Music/" "My Games/" "meshmixer/" "LOLReplay/" "Heroes of the Storm/" "GitHub/" "Downloads - Shortcut.lnk" "Diablo III/" "desktop.ini" "Default.rdp" "../" "./")
-
- ("c:/Program Files/Emacs/bin/" (22177 51947 0 0) "zlib1.dll" "runemacs.exe" "libXpm.dll" "libp11-kit-0.dll" "libnettle-6-0.dll" "libhogweed-4-0.dll" "libgnutls-30.dll" "libgmp-10.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
-
  ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/robwc/" (22161 64627 0 0) "worker_party/" "godragon/" "gobgp/" "../" "./")
-
- ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/github.com/" (22111 60636 0 0) "spf13/" "socketplane/" "Sirupsen/" "shurcooL/" "satori/" "russross/" "rogpeppe/" "robwc/" "osrg/" "nsf/" "mitchellh/" "jessevdk/" "inconshreveable/" "golang/" "cpuguy83/" "BurntSushi/" "armon/" "../" "./")
 
  ("c:/Users/rwcam_000/Documents/GitHub/gopath/src/" (22111 60630 0 0) "gopkg.in/" "google.golang.org/" "golang.org/" "github.com/" "9fans.net/" "../" "./")
 
