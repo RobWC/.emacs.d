@@ -10,3 +10,11 @@ ido.last
 .emacs.desktop.lock
 
 backups/.*
+
+#constantly changing files
+ac-comphist.dat
+elpa/archives/gnu/archive-contents
+elpa/archives/melpa/archive-contents
+ido.last
+places
+
