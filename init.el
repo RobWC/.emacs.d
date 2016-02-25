@@ -106,7 +106,7 @@
                                       dedicated ;; keeps windows from stupid town
                                       markdown-mode ;; dealing with markdown
                                       dockerfile-mode ;; docker stuff
-                                      json-mode ;; json stuff
+                                      web-mode json-mode ;; json stuff
                                       flymake-jshint ;; js stuff
                                       yaml-mode ;; yaml stuff
                                       pymacs ;; python stuff
@@ -200,6 +200,23 @@
 
 ;; lisp
 (require 'slime)
+
+;; web-mode
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.api\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("/some/react/path/.*\\.js[x]?\\'" . web-mode))
+
+(setq web-mode-content-types-alist
+  '(("json" . "/some/path/.*\\.api\\'")
+    ("xml"  . "/other/path/.*\\.api\\'")
+    ("jsx"  . "/some/react/path/.*\\.js[x]?\\'")))
 
 ;; javascript
 (require 'flymake-jshint)
