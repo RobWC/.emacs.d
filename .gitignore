@@ -1,6 +1,7 @@
 auto-save-list
 backups
 ido.last
+places
 
 \#*\#
 \.\#*
@@ -13,8 +14,7 @@ backups/.*
 
 #constantly changing files
 ac-comphist.dat
-elpa/archives/gnu/archive-contents
-elpa/archives/melpa/archive-contents
+elpa/archives/.*
 ido.last
 places
 

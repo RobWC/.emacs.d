@@ -28,6 +28,7 @@
 ;; hack for loading go-mode
 (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode.el"))
 (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode-autoloads.el"))
+(load-file (expand-file-name "~/.emacs.d/pkgs/web-mode/web-mode.el"))
 
 ;; Windows specific stuff
 (when (string-equal system-type "windows-nt")
