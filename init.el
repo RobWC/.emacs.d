@@ -211,12 +211,8 @@
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.api\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("/some/react/path/.*\\.js[x]?\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . web-mode))
 
-(setq web-mode-content-types-alist
-  '(("json" . "/some/path/.*\\.api\\'")
-    ("xml"  . "/other/path/.*\\.api\\'")
-    ("jsx"  . "/some/react/path/.*\\.js[x]?\\'")))
 
 ;; javascript
 (require 'flymake-jshint)
@@ -262,7 +258,7 @@
   (add-hook 'go-mode-hook 'go-eldoc-setup)
   (add-hook 'go-mode-hook #'enable-paredit-mode)
   (add-hook 'before-save-hook 'gofmt-before-save)
-  (add-hook 'before-save-hook 'golint)
+  (add-hook 'go-mode-hook 'before-save-hook 'golint)
 
   
   ; Customize compile command to run go build
