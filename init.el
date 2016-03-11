@@ -112,6 +112,7 @@
                                       pymacs ;; python stuff
                                       dired-single  dired-details ;; dired made nice
                                       exec-path-from-shell find-file-in-project magit neotree
+				      terraform-mode ;; terraform configs
 				      smex scpaste monokai-theme yaml-mode
                                       auto-complete markdown-mode rainbow-delimiters
                                       go-autocomplete go-eldoc go-mode go-errcheck ;; golang stuff
