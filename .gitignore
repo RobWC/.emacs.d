@@ -10,11 +10,11 @@ places
 .emacs.desktop
 .emacs.desktop.lock
 
-backups/.*
+backups/*
 
 #constantly changing files
 ac-comphist.dat
-elpa/archives/.*
+elpa/archives/*
 ido.last
 places
 
