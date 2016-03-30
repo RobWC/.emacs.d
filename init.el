@@ -92,6 +92,15 @@
     (add-to-list 'load-path "/Users/rcameron/gopath/src/github.com/golang/lint/misc/emacs")
     (add-to-list 'load-path "/Users/rcameron/gopath/src/github.com/dougm/goflymake")
     (load-file "/Users/rcameron/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el") 
+    )
+
+(when (string-equal system-type 'gnu/linux)
+  (message "Loading Linux config...")
+
+  (setenv "GOPATH" "/home/rcameron/gopath")
+  (add-to-list 'load-path "/home/rcameron/gopath/src/github.com/golang/lint/misc/emacs")
+  (add-to-list 'load-path "/home/rcameron/gopath/src/github.com/dougm/goflymake")
+  (load-file "/home/rcameron/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el")
   )
 
 (when (< emacs-major-version 24)
