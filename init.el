@@ -126,6 +126,7 @@
                                       auto-complete markdown-mode rainbow-delimiters
                                       go-autocomplete go-eldoc go-mode go-errcheck ;; golang stuff
                                       autopair ido-hacks ido-vertical-mode go-scratch go-play
+                                      dark-mint-theme
                                       popup))
 
 (package-initialize)
@@ -139,6 +140,7 @@
 
 ;; set theme
 (load-theme 'monokai t)
+;;(load-theme 'dark-mint t)
 
 ;; emacs tweaks
 (setq-default indent-tabs-mode nil)      ;; no tabs!
@@ -295,6 +297,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("1b1e54d9e0b607010937d697556cd5ea66ec9c01e555bb7acea776471da59055" default)))
  '(gofmt-show-errors (quote echo)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

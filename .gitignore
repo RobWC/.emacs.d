@@ -17,4 +17,5 @@ ac-comphist.dat
 elpa/archives/.*
 ido.last
 places
-
+server
+server/.*
