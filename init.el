@@ -92,6 +92,15 @@
     (add-to-list 'load-path "/Users/rcameron/gopath/src/github.com/golang/lint/misc/emacs")
     (add-to-list 'load-path "/Users/rcameron/gopath/src/github.com/dougm/goflymake")
     (load-file "/Users/rcameron/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el") 
+    )
+
+(when (string-equal system-type 'gnu/linux)
+  (message "Loading Linux config...")
+
+  (setenv "GOPATH" "/home/rcameron/gopath")
+  (add-to-list 'load-path "/home/rcameron/gopath/src/github.com/golang/lint/misc/emacs")
+  (add-to-list 'load-path "/home/rcameron/gopath/src/github.com/dougm/goflymake")
+  (load-file "/home/rcameron/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el")
   )
 
 (when (< emacs-major-version 24)
@@ -117,6 +126,7 @@
                                       auto-complete markdown-mode rainbow-delimiters
                                       go-autocomplete go-eldoc go-mode go-errcheck ;; golang stuff
                                       autopair ido-hacks ido-vertical-mode go-scratch go-play
+                                      dark-mint-theme
                                       popup))
 
 (package-initialize)
@@ -130,6 +140,7 @@
 
 ;; set theme
 (load-theme 'monokai t)
+;;(load-theme 'dark-mint t)
 
 ;; emacs tweaks
 (setq-default indent-tabs-mode nil)      ;; no tabs!
@@ -286,6 +297,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("1b1e54d9e0b607010937d697556cd5ea66ec9c01e555bb7acea776471da59055" default)))
  '(gofmt-show-errors (quote echo)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
