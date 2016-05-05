@@ -1,6 +1,7 @@
 auto-save-list
 backups
 ido.last
+places
 
 \#*\#
 \.\#*
@@ -9,4 +10,12 @@ ido.last
 .emacs.desktop
 .emacs.desktop.lock
 
-backups/.*
+backups/*
+
+#constantly changing files
+ac-comphist.dat
+elpa/archives/*
+ido.last
+places
+server
+server/.*
