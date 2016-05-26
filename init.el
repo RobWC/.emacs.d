@@ -151,9 +151,11 @@
 (setq uniquify-buffer-name-style 'post-forward)  ;; buffernames that are foo<1>, foo<2> are hard to read. This makes them foo|dir  foo|otherdir
 (setq desktop-load-locked-desktop "ask") ;; sometimes desktop is locked, ask if we want to load it.
 (setq-default truncate-lines 1) ;; no wordwrap
-(menu-bar-mode -1) ;; minimal chrome
-(tool-bar-mode -1) ;; no toolbar
-(scroll-bar-mode -1) ;; disable scroll bars
+(if (display-graphic-p)
+    (progn
+      (tool-bar-mode -1)
+      (scroll-bar-mode -1)))
+      (menu-bar-mode -1) ;; minimal chrome
 (setq visible-bell nil) ;; disable visual bell
 
 
