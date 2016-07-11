@@ -156,6 +156,11 @@
 (scroll-bar-mode -1) ;; disable scroll bars
 (setq visible-bell nil) ;; disable visual bell
 
+;; simplify moving around with windows
+(global-set-key (kbd "C-x <up>") 'windmove-up )
+(global-set-key (kbd "C-x <down>") 'windmove-down )
+(global-set-key (kbd "C-x <right>") 'windmove-right )
+(global-set-key (kbd "C-x <left>") 'windmove-left )
 
 ;; server mode
 (if (not server-mode)
