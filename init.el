@@ -114,7 +114,7 @@
                                       dedicated ;; keeps windows from stupid town
                                       markdown-mode ;; dealing with markdown
                                       dockerfile-mode ;; docker stuff
-                                      web-mode json-mode ;; json stuff
+                                      multi-web-mode json-mode ;; json stuff
                                       flymake-jshint ;; js stuff
                                       yaml-mode ;; yaml stuff
                                       pymacs ;; python stuff
