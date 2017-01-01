@@ -19,3 +19,5 @@ ido.last
 places
 server
 server/.*
+archive-contents
+archive-contents.signed

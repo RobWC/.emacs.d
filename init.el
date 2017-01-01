@@ -55,7 +55,8 @@
       (add-to-list 'load-path "C:/Users/rcameron/Documents/GitHub/gopath/src/github.com/golang/lint/misc/emacs")
       (add-to-list 'load-path "C:/Users/rcameron/Documents/Github/gopath/src/github.com/dougm/goflymake")
       (load-file  "C:/Users/rcameron/Documents/Github/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el")
-     ) 
+      (load-file  "C:/Users/rcameron/Documents/Github/gopath/src/golang.org/x/tools/cmd/guru/go-guru.el")
+      ) 
 
     (when (file-accessible-directory-p "c:/Users/rwcam_000")
 
@@ -90,7 +91,7 @@
     (setenv "GOPATH" "/Users/rcameron/gopath")
     (add-to-list 'load-path "/Users/rcameron/gopath/src/github.com/golang/lint/misc/emacs")
     (add-to-list 'load-path "/Users/rcameron/gopath/src/github.com/dougm/goflymake")
-    (load-file "/Users/rcameron/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el") 
+    (load-file "/Users/rcameron/gopath/src/golang.org/x/tools/cmd/guru/go-guru.el") 
     )
 
 (when (string-equal system-type 'gnu/linux)
@@ -99,7 +100,7 @@
   (setenv "GOPATH" "/home/rcameron/gopath")
   (add-to-list 'load-path "/home/rcameron/gopath/src/github.com/golang/lint/misc/emacs")
   (add-to-list 'load-path "/home/rcameron/gopath/src/github.com/dougm/goflymake")
-  (load-file "/home/rcameron/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el")
+  (load-file "/home/rcameron/gopath/src/golang.org/x/tools/cmd/guru/go-guru.el")
   )
 
 (when (< emacs-major-version 24)
