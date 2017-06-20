@@ -28,6 +28,7 @@
 ;; hack for loading go-mode
 (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode.el"))
 (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode-autoloads.el"))
+(require 'go-mode-autoloads)
 
 ;; Windows specific stuff
 (when (string-equal system-type "windows-nt")
@@ -54,8 +55,6 @@
       (setenv "GOPATH" "c:/Users/rcameron/Documents/Github/gopath")
       (add-to-list 'load-path "C:/Users/rcameron/Documents/GitHub/gopath/src/github.com/golang/lint/misc/emacs")
       (add-to-list 'load-path "C:/Users/rcameron/Documents/Github/gopath/src/github.com/dougm/goflymake")
-      (load-file  "C:/Users/rcameron/Documents/Github/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el")
-      (load-file  "C:/Users/rcameron/Documents/Github/gopath/src/golang.org/x/tools/cmd/guru/go-guru.el")
       ) 
 
     (when (file-accessible-directory-p "c:/Users/rwcam_000")
@@ -72,7 +71,6 @@
       (setenv "GOPATH" "c:/Users/rwcam_000/Documents/Github/gopath")
       (add-to-list 'load-path "C:/Users/rwcam_000/Documents/Github/gopath/src/github.com/golang/lint/misc/emacs")
       (add-to-list 'load-path "C:/Users/rwcam_000/Documents/Github/gopath/src/github.com/dougm/goflymake")
-      (load-file "C:/Users/rwcam_000/Documents/Github/gopath/src/golang.org/x/tools/cmd/oracle/oracle.el")
       
       ))
 
@@ -100,7 +98,6 @@
   (setenv "GOPATH" "/home/rcameron/gopath")
   (add-to-list 'load-path "/home/rcameron/gopath/src/github.com/golang/lint/misc/emacs")
   (add-to-list 'load-path "/home/rcameron/gopath/src/github.com/dougm/goflymake")
-  (load-file "/home/rcameron/gopath/src/golang.org/x/tools/cmd/guru/go-guru.el")
   )
 
 (when (< emacs-major-version 24)
@@ -124,7 +121,7 @@
 				      terraform-mode ;; terraform configs
 				      smex scpaste monokai-theme yaml-mode
                                       auto-complete markdown-mode rainbow-delimiters
-                                      go-autocomplete go-eldoc go-mode go-errcheck ;; golang stuff
+                                      go-autocomplete go-eldoc go-mode go-guru go-errcheck ;; golang stuff
                                       autopair ido-hacks ido-vertical-mode go-scratch go-play
                                       dark-mint-theme
                                       popup))
