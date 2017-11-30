@@ -26,9 +26,9 @@
   (package-refresh-contents))
 
 ;; hack for loading go-mode
-(load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode.el"))
-(load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode-autoloads.el"))
-(require 'go-mode-autoloads)
+; (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode.el"))
+; (load-file (expand-file-name "~/.emacs.d/elpa/go-mode-20151226.1224/go-mode-autoloads.el"))
+;(require 'go-mode-autoloads)
 
 ;; Windows specific stuff
 (when (string-equal system-type "windows-nt")
@@ -54,7 +54,6 @@
                         ))
       (setenv "GOPATH" "c:/Users/rcameron/Documents/Github/gopath")
       (add-to-list 'load-path "C:/Users/rcameron/Documents/GitHub/gopath/src/github.com/golang/lint/misc/emacs")
-      (add-to-list 'load-path "C:/Users/rcameron/Documents/Github/gopath/src/github.com/dougm/goflymake")
       ) 
 
     (when (file-accessible-directory-p "c:/Users/rwcam_000")
@@ -70,7 +69,6 @@
 
       (setenv "GOPATH" "c:/Users/rwcam_000/Documents/Github/gopath")
       (add-to-list 'load-path "C:/Users/rwcam_000/Documents/Github/gopath/src/github.com/golang/lint/misc/emacs")
-      (add-to-list 'load-path "C:/Users/rwcam_000/Documents/Github/gopath/src/github.com/dougm/goflymake")
       
       ))
 
@@ -88,8 +86,6 @@
     ; set gopath
     (setenv "GOPATH" "/Users/rcameron/gopath")
     (add-to-list 'load-path "/Users/rcameron/gopath/src/github.com/golang/lint/misc/emacs")
-    (add-to-list 'load-path "/Users/rcameron/gopath/src/github.com/dougm/goflymake")
-    (load-file "/Users/rcameron/gopath/src/golang.org/x/tools/cmd/guru/go-guru.el") 
     )
 
 (when (string-equal system-type 'gnu/linux)
@@ -97,7 +93,6 @@
 
   (setenv "GOPATH" "/home/rcameron/gopath")
   (add-to-list 'load-path "/home/rcameron/gopath/src/github.com/golang/lint/misc/emacs")
-  (add-to-list 'load-path "/home/rcameron/gopath/src/github.com/dougm/goflymake")
   )
 
 (when (< emacs-major-version 24)
@@ -262,7 +257,6 @@
 (require 'golint)
 (require 'go-eldoc)
 (require 'go-autocomplete)
-(require 'go-flymake)
 
 
 (add-to-list 'auto-mode-alist '("\\.go\\'" . go-mode))
